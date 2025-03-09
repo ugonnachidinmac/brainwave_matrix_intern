@@ -1,0 +1,738 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "BCC",
+      "description": "Basic Certificate Course",
+      "duration": "Two Weeks",
+      "imageUrl": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741257045/WOFBIIMGLDC_bxxhal.jpg"
+    },
+    {
+      "id": 2,
+      "title": "LCC",
+      "description": "Leadership Certificate Course",
+      "duration": "Three Weeks",
+      "imageUrl": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741257045/WOFBIIMGBCC_xqc6hv.jpg"
+    },
+    {
+      "id": 3,
+      "title": "LDC",
+      "description": "Leadership Diploma Course",
+      "duration": "Four Weeks",
+      "imageUrl": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741257045/WOFBIIMGLCC_efmo8v.jpg"
+    }
+  ],
+  "coursedetails": [
+    {
+      "id": 1,
+      "title": "BCC",
+      "description": "Basic Certificate Course",
+      "duration": "Two Weeks",
+      "objective": "OBJECTIVES",
+      "description2": "This is the Foundation Course for those who have never attended any previous WOFBI program. (Scholarship is available for all 1st timers in the church in the Four (4) Months before the commencement of the course) | Fee: £20 for BCC",
+      "course": "NEW WOFBI BCC COURSES",
+      "outline": [
+        "NEW CREATION FUNDAMENTALS - NCF 101",
+        "WORD FOUNDATION - WF 101",
+        "DETERMINING DIVINE DIRECTION - DDD 101",
+        "PRINCIPLES OF FINANCIAL PROSPERITY - PFP 101",
+        "PRINCIPLES OF MINISTRY - POM 101",
+        "PRINCIPLES OF ANSWERED PRAYERS - PAP 101",
+        "FAMILY LIFE - FL 101",
+        "PRINCIPLES OF DIVINE HEALTH - PDH 101",
+        "PRINCIPLES OF FAITH - POF 101",
+        "PRINCIPLES OF KINGDOM ADVANCEMENT - PKA 101",
+        "UNDERSTANDING THE POWER OF LOVE - UPL 101",
+        "THE HOLY SPIRIT - THS 101"
+      ],
+      "register": "REGISTER NOW"
+    },
+    {
+      "id": 2,
+      "title": "LCC",
+      "description": "Leadership Certificate Course",
+      "duration": "Three Weeks",
+      "objective": "OBJECTIVES",
+      "description2": "Advanced leadership training for those who have completed the BCC course. It focuses on ministry, leadership, and spiritual growth. | Fee: £30 for LCC",
+      "course": "NEW WOFBI LCC COURSES",
+      "outline": [
+        "SPIRITUAL LEADERSHIP - SL 201",
+        "CHRISTIAN CHARACTER - CC 201",
+        "STRATEGIC CHURCH GROWTH - SCG 201",
+        "MARRIAGE COVENANT - MC 201",
+        "PRINCIPLES OF FAITH - POF 201",
+        "THE HOLY SPIRIT - THS 201"
+      ],
+      "register": "REGISTER NOW"
+    },
+    {
+      "id": 3,
+      "title": "LDC",
+      "description": "Leadership Diploma Course",
+      "duration": "Four Weeks",
+      "objective": "OBJECTIVES",
+      "description2": "A deeper exploration into biblical leadership principles, pastoral ministry, and financial empowerment. | Fee: £40 for LDC",
+      "course": "NEW WOFBI LDC COURSES",
+      "outline": [
+        "PASTORAL LEADERSHIP - PL 301",
+        "CHURCH ADMINISTRATION - CA 301",
+        "ADVANCED FINANCIAL PROSPERITY - AFP 301",
+        "MINISTERIAL ETHICS - ME 301",
+        "EFFECTIVE COMMUNICATION IN MINISTRY - ECM 301"
+      ],
+      "register": "REGISTER NOW"
+    }
+  ],
+  "registerslidephoto": [
+    {
+      "id": 1,
+      "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741267635/WOFBISLIDE9_agnl4c.jpg"
+    },
+    {
+      "id": 2,
+      "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741267635/WOFBISLIDE7_mwtvsx.jpg"
+    },
+    {
+      "id": 3,
+      "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741267634/WOFBISLIDE1_h9xdfx.jpg"
+    },
+    {
+      "id": 4,
+      "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741267634/WOFBISLIDE6_ag9adu.jpg"
+    },
+    {
+      "id": 5,
+      "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741267635/WOFBISLIDE8_ykqzuu.jpg"
+    },
+    {
+      "id": 6,
+      "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741267635/WOFBISLIDE12_olgyfg.jpg"
+    },
+    {
+      "id": 7,
+      "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741267635/WOFBISLIDE10_gdkkij.jpg"
+    },
+    {
+      "id": 8,
+      "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741267634/WOFBISLIDE5_awplzh.jpg"
+    },
+    {
+      "id": 9,
+      "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741267635/WOFBISLIDE11_nx6hlj.jpg"
+    },
+    {
+      "id": 10,
+      "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741267634/WOFBISLIDE2_nezgvo.jpg"
+    }
+  ],
+  "student": {
+    "2025": {
+      "BCC": [
+        {
+          "id": "1",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu13_dr8kp1.jpg"
+        },
+        {
+          "id": "2",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu14_c5tunh.jpg"
+        },
+        {
+          "id": "3",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu15_wnx34k.jpg"
+        },
+        {
+          "id": "4",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu8_njhih5.jpg"
+        },
+        {
+          "id": "5",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu11_nk94nh.jpg"
+        },
+        {
+          "id": "6",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu12_v1rcye.jpg"
+        },
+        {
+          "id": "7",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu7_upjkkt.jpg"
+        },
+        {
+          "id": "8",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu9_lqdc7w.jpg"
+        },
+        {
+          "id": "9",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu10_awhhbv.jpg"
+        },
+        {
+          "id": "10",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529282/stu5_h09iex.jpg"
+        },
+        {
+          "id": "11",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu6_cjyer8.jpg"
+        },
+        {
+          "id": "12",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu2_of7a2v.jpg"
+        }
+      ],
+      "LCC": [
+        {
+          "id": "1",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu9_lqdc7w.jpg"
+        },
+        {
+          "id": "2",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu13_dr8kp1.jpg"
+        },
+        {
+          "id": "3",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu15_wnx34k.jpg"
+        },
+        {
+          "id": "4",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu8_njhih5.jpg"
+        },
+        {
+          "id": "5",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu11_nk94nh.jpg"
+        },
+        {
+          "id": "6",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu12_v1rcye.jpg"
+        },
+        {
+          "id": "7",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu7_upjkkt.jpg"
+        },
+        {
+          "id": "8",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu14_c5tunh.jpg"
+        },
+        {
+          "id": "9",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu10_awhhbv.jpg"
+        },
+        {
+          "id": "10",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529282/stu5_h09iex.jpg"
+        },
+        {
+          "id": "11",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu6_cjyer8.jpg"
+        },
+        {
+          "id": "12",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu2_of7a2v.jpg"
+        }
+      ],
+      "LDC": [
+        {
+          "id": "1",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu6_cjyer8.jpg"
+        },
+        {
+          "id": "2",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu7_upjkkt.jpg"
+        },
+        {
+          "id": "3",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu10_awhhbv.jpg"
+        },
+        {
+          "id": "4",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu8_njhih5.jpg"
+        },
+        {
+          "id": "5",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu11_nk94nh.jpg"
+        },
+        {
+          "id": "6",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu12_v1rcye.jpg"
+        },
+        {
+          "id": "7",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu7_upjkkt.jpg"
+        },
+        {
+          "id": "8",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu9_lqdc7w.jpg"
+        },
+        {
+          "id": "9",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu10_awhhbv.jpg"
+        },
+        {
+          "id": "10",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529282/stu5_h09iex.jpg"
+        },
+        {
+          "id": "11",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu6_cjyer8.jpg"
+        },
+        {
+          "id": "12",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu2_of7a2v.jpg"
+        }
+      ]
+    },
+    "2024": {
+      "BCC": [
+        {
+          "id": "1",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529282/stu5_h09iex.jpg"
+        },
+        {
+          "id": "2",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu6_cjyer8.jpg"
+        },
+        {
+          "id": "3",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu7_upjkkt.jpg"
+        },
+        {
+          "id": "4",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu8_njhih5.jpg"
+        },
+        {
+          "id": "5",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu11_nk94nh.jpg"
+        },
+        {
+          "id": "6",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu12_v1rcye.jpg"
+        },
+        {
+          "id": "7",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu7_upjkkt.jpg"
+        },
+        {
+          "id": "8",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu9_lqdc7w.jpg"
+        },
+        {
+          "id": "9",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu10_awhhbv.jpg"
+        },
+        {
+          "id": "10",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529282/stu5_h09iex.jpg"
+        },
+        {
+          "id": "11",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu6_cjyer8.jpg"
+        },
+        {
+          "id": "12",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu2_of7a2v.jpg"
+        }
+      ],
+      "LCC": [
+        {
+          "id": "1",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu8_njhih5.jpg"
+        },
+        {
+          "id": "2",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu11_nk94nh.jpg"
+        },
+        {
+          "id": "3",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu9_lqdc7w.jpg"
+        },
+        {
+          "id": "4",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu13_dr8kp1.jpg"
+        },
+        {
+          "id": "5",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu15_wnx34k.jpg"
+        },
+        {
+          "id": "6",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu12_v1rcye.jpg"
+        },
+        {
+          "id": "7",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu7_upjkkt.jpg"
+        },
+        {
+          "id": "8",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu9_lqdc7w.jpg"
+        },
+        {
+          "id": "9",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu10_awhhbv.jpg"
+        },
+        {
+          "id": "10",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529282/stu5_h09iex.jpg"
+        },
+        {
+          "id": "11",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu6_cjyer8.jpg"
+        },
+        {
+          "id": "12",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu2_of7a2v.jpg"
+        }
+      ],
+      "LDC": [
+        {
+          "id": "1",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu12_v1rcye.jpg"
+        },
+        {
+          "id": "2",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu9_lqdc7w.jpg"
+        },
+        {
+          "id": "3",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu15_wnx34k.jpg"
+        },
+        {
+          "id": "4",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu8_njhih5.jpg"
+        },
+        {
+          "id": "5",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu11_nk94nh.jpg"
+        },
+        {
+          "id": "6",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu13_dr8kp1.jpg"
+        },
+        {
+          "id": "7",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu7_upjkkt.jpg"
+        },
+        {
+          "id": "8",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu14_c5tunh.jpg"
+        },
+        {
+          "id": "9",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu10_awhhbv.jpg"
+        },
+        {
+          "id": "10",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529282/stu5_h09iex.jpg"
+        },
+        {
+          "id": "11",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu6_cjyer8.jpg"
+        },
+        {
+          "id": "12",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu2_of7a2v.jpg"
+        }
+      ]
+    },
+    "2023": {
+      "BCC": [
+        {
+          "id": "1",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu9_lqdc7w.jpg"
+        },
+        {
+          "id": "2",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu13_dr8kp1.jpg"
+        },
+        {
+          "id": "3",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu15_wnx34k.jpg"
+        },
+        {
+          "id": "4",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu8_njhih5.jpg"
+        },
+        {
+          "id": "5",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu11_nk94nh.jpg"
+        },
+        {
+          "id": "6",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu12_v1rcye.jpg"
+        },
+        {
+          "id": "7",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu7_upjkkt.jpg"
+        },
+        {
+          "id": "8",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu14_c5tunh.jpg"
+        },
+        {
+          "id": "9",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu10_awhhbv.jpg"
+        },
+        {
+          "id": "10",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529282/stu5_h09iex.jpg"
+        },
+        {
+          "id": "11",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu6_cjyer8.jpg"
+        },
+        {
+          "id": "12",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu2_of7a2v.jpg"
+        }
+      ],
+      "LCC": [
+        {
+          "id": "1",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu13_dr8kp1.jpg"
+        },
+        {
+          "id": "2",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu7_upjkkt.jpg"
+        },
+        {
+          "id": "3",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu9_lqdc7w.jpg"
+        },
+        {
+          "id": "4",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu8_njhih5.jpg"
+        },
+        {
+          "id": "5",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu11_nk94nh.jpg"
+        },
+        {
+          "id": "6",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu12_v1rcye.jpg"
+        },
+        {
+          "id": "7",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu13_dr8kp1.jpg"
+        },
+        {
+          "id": "8",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu15_wnx34k.jpg"
+        },
+        {
+          "id": "9",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu10_awhhbv.jpg"
+        },
+        {
+          "id": "10",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529282/stu5_h09iex.jpg"
+        },
+        {
+          "id": "11",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu6_cjyer8.jpg"
+        },
+        {
+          "id": "12",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu2_of7a2v.jpg"
+        }
+      ],
+      "LDC": [
+        {
+          "id": "1",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu7_upjkkt.jpg"
+        },
+        {
+          "id": "2",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu9_lqdc7w.jpg"
+        },
+        {
+          "id": "3",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu10_awhhbv.jpg"
+        },
+        {
+          "id": "4",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu8_njhih5.jpg"
+        },
+        {
+          "id": "5",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu11_nk94nh.jpg"
+        },
+        {
+          "id": "6",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu12_v1rcye.jpg"
+        },
+        {
+          "id": "7",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu13_dr8kp1.jpg"
+        },
+        {
+          "id": "8",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu14_c5tunh.jpg"
+        },
+        {
+          "id": "9",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu15_wnx34k.jpg"
+        },
+        {
+          "id": "10",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529282/stu5_h09iex.jpg"
+        },
+        {
+          "id": "11",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu6_cjyer8.jpg"
+        },
+        {
+          "id": "12",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu2_of7a2v.jpg"
+        }
+      ]
+    },
+    "2022": {
+      "BCC": [
+        {
+          "id": "1",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu12_v1rcye.jpg"
+        },
+        {
+          "id": "2",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu9_lqdc7w.jpg"
+        },
+        {
+          "id": "3",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529282/stu5_h09iex.jpg"
+        },
+        {
+          "id": "4",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu8_njhih5.jpg"
+        },
+        {
+          "id": "5",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu11_nk94nh.jpg"
+        },
+        {
+          "id": "6",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu13_dr8kp1.jpg"
+        },
+        {
+          "id": "7",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu7_upjkkt.jpg"
+        },
+        {
+          "id": "8",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu14_c5tunh.jpg"
+        },
+        {
+          "id": "9",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu10_awhhbv.jpg"
+        },
+        {
+          "id": "10",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu15_wnx34k.jpg"
+        },
+        {
+          "id": "11",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu6_cjyer8.jpg"
+        },
+        {
+          "id": "12",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu2_of7a2v.jpg"
+        }
+      ],
+      "LCC": [
+        {
+          "id": "1",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu6_cjyer8.jpg"
+        },
+        {
+          "id": "2",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu2_of7a2v.jpg"
+        },
+        {
+          "id": "3",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu10_awhhbv.jpg"
+        },
+        {
+          "id": "4",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu8_njhih5.jpg"
+        },
+        {
+          "id": "5",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu11_nk94nh.jpg"
+        },
+        {
+          "id": "6",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu12_v1rcye.jpg"
+        },
+        {
+          "id": "7",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu7_upjkkt.jpg"
+        },
+        {
+          "id": "8",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu9_lqdc7w.jpg"
+        },
+        {
+          "id": "9",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu15_wnx34k.jpg"
+        },
+        {
+          "id": "10",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529282/stu5_h09iex.jpg"
+        },
+        {
+          "id": "11",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu13_dr8kp1.jpg"
+        },
+        {
+          "id": "12",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu14_c5tunh.jpg"
+        }
+      ],
+      "LDC": [
+        {
+          "id": "1",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu8_njhih5.jpg"
+        },
+        {
+          "id": "2",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu7_upjkkt.jpg"
+        },
+        {
+          "id": "3",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu10_awhhbv.jpg"
+        },
+        {
+          "id": "4",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu13_dr8kp1.jpg"
+        },
+        {
+          "id": "5",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu11_nk94nh.jpg"
+        },
+        {
+          "id": "6",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu12_v1rcye.jpg"
+        },
+        {
+          "id": "7",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu14_c5tunh.jpg"
+        },
+        {
+          "id": "8",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528670/stu9_lqdc7w.jpg"
+        },
+        {
+          "id": "9",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741528671/stu15_wnx34k.jpg"
+        },
+        {
+          "id": "10",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529282/stu5_h09iex.jpg"
+        },
+        {
+          "id": "11",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu6_cjyer8.jpg"
+        },
+        {
+          "id": "12",
+          "photo": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1741529281/stu2_of7a2v.jpg"
+        }
+      ]
+    }
+  }
+}
