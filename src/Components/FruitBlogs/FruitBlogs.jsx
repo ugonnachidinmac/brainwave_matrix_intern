@@ -94,7 +94,6 @@ const FruitBlogs = () => {
           Next
         </button>
       </div>
-      {/* <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae dignissimos commodi assumenda deserunt. Corporis doloremque labore impedit saepe asperiores error.</p> */}
     </section>
   );
 };
