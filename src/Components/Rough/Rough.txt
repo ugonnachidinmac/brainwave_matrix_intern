@@ -1,0 +1,3768 @@
+#f8c96c — Light Orange
+#fbb651 — Bright Orange
+#f3a94f — Deep Orange
+#f0d898 — Creamy Beige
+#fad17b — Soft Yellow-Orange
+#ffb445 — Vivid Orange
+
+RGB: (216, 244, 255) → HEX: #d8f4ff
+RGB: (217, 245, 255) → HEX: #d9f5ff
+RGB: (240, 251, 255) → HEX: #f0fbff
+RGB: (225, 243, 255) → HEX: #e1f3ff
+RGB: (227, 245, 255) → HEX: #e3f5ff
+RGB: (218, 245, 255) → HEX: #daf5ff 
+
+Approximate Area	Hex Code	RGB Code
+Light Blue	#b5d3e3	rgb(181, 211, 227)
+Pale Gray-Blue	#c1d0d6	rgb(193, 208, 214)
+Soft Gray	#b3c3c9	rgb(179, 195, 201)
+#b0c5d3	rgb(176, 197, 211)
+#a0b3c0	rgb(160, 179, 192)
+#c0d4de	rgb(192, 212, 222)
+#70c0ef	rgb(154, 173, 184)
+#adbfc9	rgb(173, 191, 201)
+#c8dce6	rgb(200, 220, 230)
+
+import React from 'react'
+
+const FoodDetails = () => {
+  return (
+  <>
+  <section>
+    <div>
+        <div>
+        <img
+            src={blog.picture}
+            alt={blog.title}
+            className="rounded w-full h-[150px] object-cover mb-2"
+          />
+        </div>
+        <div>
+            <h1>The Bread and Butter Chronicles: A Journey Through Everyday Culinary Magic</h1>
+            <p>Explore the simple yet profound impact of everyday meals through the eyes of passionate chefs and home cooks alike. From warm loaves of bread to perfectly buttered toast, this story reveals how comfort food connects cultures, memories, and generations.</p>
+            <h2>Rediscovering Simplicity in the Kitchen</h2>
+            <p>Join us on a heartfelt journey celebrating the unsung heroes of our kitchens — bread and butter — and the remarkable stories they tell.</p>
+            <span>Alice Waters</span>
+            <span className="text-xs text-gray-400 text-[10px]">
+            {blog.published
+              ? new Date(blog.published).toLocaleDateString()
+              : new Date().toLocaleDateString()}
+          </span>
+        </div>
+    </div>
+    {/* <div>
+        <p>count how many like <button>like icon</button></p>
+        <p>count homw many comment <button>comment icon </button></p> */}
+        {/* then clicking on the comment icon drop input to collect comment */}
+         {/* <button>share icon</button>  
+         clicking on the share icon drop social media icons to share, then select anyone will give message post succesful      
+    </div> */}
+  </section>
+  </>
+  )
+}
+
+export default FoodDetails
+
+{
+  "all": [
+    {
+      "id": "3",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg1_jj9h2t.jpg",
+      "title": "Savor the Flavor: A Celebration of Global Dishes and Timeless Recipes",
+      "author": "Julia Child",
+      "published": ""
+    },
+    {
+      "id": "4",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg5_f5ivbz.jpg",
+      "title": "Gastronomy Tales: Inside the Kitchens of the World's Greatest Chefs",
+      "author": "Massimo Bottura",
+      "published": ""
+    },
+    {
+      "id": "5",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg6_ldvqpv.jpg",
+      "title": "Spice Route Diaries: Discovering the Hidden Stories Behind Every Dish",
+      "author": "Padma Lakshmi",
+      "published": ""
+    },
+    {
+      "id": "6",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154627/foodimg3_tuzhxo.jpg",
+      "title": "Forks and Fables: The Cultural Narratives That Shape What We Eat",
+      "author": "Anthony Bourdain",
+      "published": ""
+    },
+    {
+      "id": "7",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+      "title": "The Flavor Alchemist: Unlocking the Secrets of Molecular Gastronomy",
+      "author": "Heston Blumenthal",
+      "published": ""
+    },
+    {
+      "id": "8",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729878914/Frame_10124_cgpsxw.png",
+      "title": "Edible Adventures: Culinary Journeys Through Uncharted Territories",
+      "author": "Nigella Lawson",
+      "published": ""
+    },
+    {
+      "id": "9",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154661/fruitimg12_votfhw.jpg",
+      "title": "The Orchard Diaries: A Journey Through Nature’s Sweetest Bounty",
+      "author": "Clementine Harper",
+      "published": ""
+    },
+    {
+      "id": "10",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg6_o5q8pd.jpg",
+      "title": "Fruitful Tales: Legends and Recipes from the World’s Vibrant Groves",
+      "author": "Berry Thompson",
+      "published": ""
+    },
+    {
+      "id": "11",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg10_tcws66.jpg",
+      "title": "Citrus Symphony: Exploring the Zest and Zeal of Sun-Kissed Fruits",
+      "author": "Valencia Ray",
+      "published": ""
+    },
+    {
+      "id": "13",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Pomegranate Dreams: Mythology and Medicine from Seed to Skin",
+      "author": "Ruby Granate",
+      "published": ""
+    },
+    {
+      "id": "14",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg9_sy5jtx.jpg",
+      "title": "Melon Muse: Sweet Slices of Summer and the Art of Refreshment",
+      "author": "Honey D. Loup",
+      "published": ""
+    },
+    {
+      "id": "15",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg5_hsivjl.jpg",
+      "title": "Berry Bliss: From Forest Floors to Fine Dining Tables",
+      "author": "Straw Belle",
+      "published": ""
+    },
+    {
+      "id": "16",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Fruitopia: A Global Expedition into the World’s Juiciest Discoveries",
+      "author": "Jackie Fruitson",
+      "published": ""
+    },
+    {
+      "id": "17",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154679/newsimg1_nhsgsn.jpg",
+      "title": "The Mental Health Surge: Understanding the Global Rise in Anxiety and Depression",
+      "author": "Elena Michaels",
+      "published": ""
+    },
+    {
+      "id": "18",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg2_glqsd4.jpg",
+      "title": "Vaccines and Variants: How Scientists Are Staying Ahead of Emerging Viruses",
+      "author": "Marcus Lee",
+      "published": ""
+    },
+    {
+      "id": "19",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg3_wwojd8.png",
+      "title": "Nutrition Nation: The Impact of Diet Trends on Public Health Outcomes",
+      "author": "Tariq Johnson",
+      "published": ""
+    },
+    {
+      "id": "20",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg4_tr7bm8.jpg",
+      "title": "Heart Health Matters: New Guidelines Aim to Combat Rising Cardiovascular Risks",
+      "author": "Sophie Chen",
+      "published": ""
+    },
+    {
+      "id": "21",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg5_jgsnz4.jpg",
+      "title": "Climate and Health: How a Warming Planet is Influencing Disease Patterns",
+      "author": "David Nkrumah",
+      "published": ""
+    },
+    {
+      "id": "22",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg11_w9pwe2.jpg",
+      "title": "AI in Healthcare: Revolutionizing Diagnostics and Patient Care Delivery",
+      "author": "Priya Desai",
+      "published": ""
+    },
+    {
+      "id": "23",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg12_pzzznz.jpg",
+      "title": "Mental Wellness in the Workplace: Companies Investing in Employee Health",
+      "author": "Carlos Mendoza",
+      "published": ""
+    },
+    {
+      "id": "24",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg13_n4inhu.jpg",
+      "title": "Global Health Innovations: Medical Breakthroughs Transforming Lives in 2025",
+      "author": "Lina Petrova",
+      "published": ""
+    },
+    {
+      "id": "111b",
+      "picture": "blob:http://localhost:5174/e6b11626-5b0b-4507-be89-40dc02cf2138",
+      "title": "food",
+      "author": "Obi E",
+      "published": "20/3/2025",
+      "titleDescription": "I help home cooks to make tasty food using simple ingredients and easy-to-follow steps.  Originally from Prague and now based in L.A., I love mixing up my favorite Czech childhood recipes (hey koláče) with everyday California dishes (hello avo toast) and sharing them on this blog.",
+      "subTitle": "Cooking Today",
+      "subTitleDescription": " goodcooking.com's RECIPE ZONE New Logo  NEW DESIGN---World Recipe Server 18,000+ Recipes New Logo   Cooking Today Spring has sprung in the northern hemisphere. With it comes many religious holidays and few not such as Mother's Day! What to eat on these occasions? Tradition over the  centuries say Lamb of some sort, that is if one isn't vegetarian, vegan or you don't like lamb. Here's two ways to"
+    },
+    {
+      "id": 1742657629186,
+      "picture": "blob:http://localhost:5174/d809e217-df7f-4eb2-be4e-997b74142fb1",
+      "title": "Fruit House",
+      "author": "nma ugo",
+      "published": "21/3/2025"
+    }
+  ],
+  "food": [
+    {
+      "id": "1",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg2_ibaac1.webp",
+      "title": "The Bread and Butter Chronicles: A Journey Through Everyday Culinary Magic",
+      "author": "Alice Waters",
+      "published": ""
+    },
+    {
+      "id": "2",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg4_kwm0e2.jpg",
+      "title": "Culinary Canvas: Exploring Artistry in Modern Cuisine Around the World",
+      "author": "Gordon Ramsay",
+      "published": ""
+    },
+    {
+      "id": "3",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg1_jj9h2t.jpg",
+      "title": "Savor the Flavor: A Celebration of Global Dishes and Timeless Recipes",
+      "author": "Julia Child",
+      "published": ""
+    },
+    {
+      "id": "4",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg5_f5ivbz.jpg",
+      "title": "Gastronomy Tales: Inside the Kitchens of the World's Greatest Chefs",
+      "author": "Massimo Bottura",
+      "published": ""
+    },
+    {
+      "id": "5",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg6_ldvqpv.jpg",
+      "title": "Spice Route Diaries: Discovering the Hidden Stories Behind Every Dish",
+      "author": "Padma Lakshmi",
+      "published": ""
+    },
+    {
+      "id": "6",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154627/foodimg3_tuzhxo.jpg",
+      "title": "Forks and Fables: The Cultural Narratives That Shape What We Eat",
+      "author": "Anthony Bourdain",
+      "published": ""
+    },
+    {
+      "id": "7",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+      "title": "The Flavor Alchemist: Unlocking the Secrets of Molecular Gastronomy",
+      "author": "Heston Blumenthal",
+      "published": ""
+    },
+    {
+      "id": "8",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729878914/Frame_10124_cgpsxw.png",
+      "title": "Edible Adventures: Culinary Journeys Through Uncharted Territories",
+      "author": "Nigella Lawson",
+      "published": ""
+    },
+    {
+      "id": "9",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154627/foodimg3_tuzhxo.jpg",
+      "title": "Forks and Fables: The Cultural Narratives That Shape What We Eat",
+      "author": "Anthony Bourdain",
+      "published": ""
+    },
+    {
+      "id": "10",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+      "title": "The Flavor Alchemist: Unlocking the Secrets of Molecular Gastronomy",
+      "author": "Heston Blumenthal",
+      "published": ""
+    },
+    {
+      "id": "11",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729878914/Frame_10124_cgpsxw.png",
+      "title": "Edible Adventures: Culinary Journeys Through Uncharted Territories",
+      "author": "Nigella Lawson",
+      "published": ""
+    },
+    {
+      "id": "12",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154627/foodimg3_tuzhxo.jpg",
+      "title": "Forks and Fables: The Cultural Narratives That Shape What We Eat",
+      "author": "Anthony Bourdain",
+      "published": ""
+    },
+    {
+      "id": "13",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+      "title": "The Flavor Alchemist: Unlocking the Secrets of Molecular Gastronomy",
+      "author": "Heston Blumenthal",
+      "published": ""
+    },
+    {
+      "id": "14",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729878914/Frame_10124_cgpsxw.png",
+      "title": "Edible Adventures: Culinary Journeys Through Uncharted Territories",
+      "author": "Nigella Lawson",
+      "published": ""
+    },
+    {
+      "id": "15",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154627/foodimg3_tuzhxo.jpg",
+      "title": "Forks and Fables: The Cultural Narrative That Shape What We Eat",
+      "author": "Anthony Bourdain",
+      "published": ""
+    },
+    {
+      "id": "c899",
+      "picture": "blob:http://localhost:5173/cd40ffcb-7c0f-46f0-8c36-008bac9429b0",
+      "title": "DINNING MANNER",
+      "author": "ULOMA I",
+      "published": "20/3/2025"
+    }
+  ],
+  "fruit": [
+    {
+      "id": "1",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154661/fruitimg12_votfhw.jpg",
+      "title": "The Orchard Diaries: A Journeys Through Nature’s Sweetest Bounty",
+      "author": "Clementine Harper",
+      "published": ""
+    },
+    {
+      "id": "2",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg6_o5q8pd.jpg",
+      "title": "Fruitful Tales: Legends and Recipes from the World’s Vibrant Groves",
+      "author": "Berry Thompson",
+      "published": ""
+    },
+    {
+      "id": "3",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg10_tcws66.jpg",
+      "title": "Citrus Symphony: Exploring the Zest and Zeal of Sun-Kissed Fruits",
+      "author": "Valencia Ray",
+      "published": ""
+    },
+    {
+      "id": "4",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg7_bkywcr.jpg",
+      "title": "Banana Republic: Cultural Stories and Culinary Wonders of the Tropics",
+      "author": "Mango Wells",
+      "published": ""
+    },
+    {
+      "id": "5",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Pomegranate Dreams: Mythology and Medicine from Seed to Skin",
+      "author": "Ruby Granate",
+      "published": ""
+    },
+    {
+      "id": "6",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg9_sy5jtx.jpg",
+      "title": "Melon Muse: Sweet Slices of Summer and the Art of Refreshment",
+      "author": "Honey D. Loup",
+      "published": ""
+    },
+    {
+      "id": "7",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg5_hsivjl.jpg",
+      "title": "Berry Bliss: From Forest Floors to Fine Dining Tables",
+      "author": "Straw Belle",
+      "published": ""
+    },
+    {
+      "id": "8",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Fruitopia: A Global Expedition into the World’s Juiciest Discoveries",
+      "author": "Jackie Fruitson",
+      "published": ""
+    },
+    {
+      "id": "a8ae",
+      "picture": "blob:http://localhost:5173/120a564b-2f23-4874-86c4-919133b114fd",
+      "title": "FRUITES HOUSE",
+      "author": "Chioma Ugonna",
+      "published": "21/3/2025",
+      "subTitle": "Cooking Today"
+    }
+  ],
+  "news": [
+  {
+    "id": 1,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154679/newsimg1_nhsgsn.jpg",
+    "title": "The Mental Health Surge: Understanding the Global Rise in Anxiety and Depression",
+    "author": "Elena Michaels",
+    "published": ""
+  },
+  {
+    "id": 2,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg2_glqsd4.jpg",
+    "title": "Vaccines and Variants: How Scientists Are Staying Ahead of Emerging Viruses",
+    "author": "Marcus Lee",
+    "published": ""
+  },
+  {
+    "id": 3,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg3_wwojd8.png",
+    "title": "Nutrition Nation: The Impact of Diet Trends on Public Health Outcomes",
+    "author": "Tariq Johnson",
+    "published": ""
+  },
+  {
+    "id": 4,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg4_tr7bm8.jpg",
+    "title": "Heart Health Matters: New Guidelines Aim to Combat Rising Cardiovascular Risks",
+    "author": "Sophie Chen",
+    "published": ""
+  },
+  {
+    "id": 5,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg5_jgsnz4.jpg",
+    "title": "Climate and Health: How a Warming Planet is Influencing Disease Patterns",
+    "author": "David Nkrumah",
+    "published": ""
+  },
+  {
+    "id": 6,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg11_w9pwe2.jpg",
+    "title": "AI in Healthcare: Revolutionizing Diagnostics and Patient Care Delivery",
+    "author": "Priya Desai",
+    "published": ""
+  },
+  {
+    "id": 7,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg12_pzzznz.jpg",
+    "title": "Mental Wellness in the Workplace: Companies Investing in Employee Health",
+    "author": "Carlos Mendoza",
+    "published": ""
+  },
+  {
+    "id": 8,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg13_n4inhu.jpg",
+    "title": "Global Health Innovations: Medical Breakthroughs Transforming Lives in 2025",
+    "author": "Lina Petrova",
+    "published": ""
+  }
+],
+  "foodDetail": [
+    {
+      "id": "1",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg2_ibaac1.webp",
+      "title": "The Breads and Butter Chronicles: A Journey Through Everyday Culinary Magic",
+      "titleDescription": "Explore the simple yet profound impact of everyday meals through the eyes of passionate chefs and home cooks alike. From warm loaves of bread to perfectly buttered toast, this story reveals how comfort food connects cultures, memories, and generations.",
+      "subTitle": "Rediscovering Simplicity in the Kitchen",
+      "subTitleDescription": "Join us on a heartfelt journey celebrating the unsung heroes of our kitchens — bread and butter — and the remarkable stories they tell.",
+      "author": "Alice Waters",
+      "published": "2025-03-15"
+    },
+    {
+      "id": "2",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg4_kwm0e2.jpg",
+      "title": "Culinary Canvas: Exploring Artistry in Modern Cuisine Around the World",
+      "titleDescription": "Dive into the intersection of food and art as chefs turn plates into masterpieces using bold flavors, colors, and textures from diverse cultures.",
+      "subTitle": "When Cooking Becomes an Art Form",
+      "subTitleDescription": "Discover how culinary artists from around the globe redefine creativity in the kitchen through innovation and tradition.",
+      "author": "Gordon Ramsay",
+      "published": "2025-03-14"
+    },
+    {
+      "id": "3",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg1_jj9h2t.jpg",
+      "title": "Savor the Flavor: A Celebration of Global Dishes and Timeless Recipes",
+      "titleDescription": "A delicious journey through iconic recipes and the cultures that shaped them, highlighting timeless flavors loved across generations.",
+      "subTitle": "Tastes That Transcend Borders",
+      "subTitleDescription": "Uncover the stories and secrets behind dishes that have become beloved staples worldwide.",
+      "author": "Julia Child",
+      "published": "2025-03-13"
+    },
+    {
+      "id": "4",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg5_f5ivbz.jpg",
+      "title": "Gastronomy Tales: Inside the Kitchens of the World's Greatest Chefs",
+      "titleDescription": "Go behind the scenes in the kitchens of culinary legends as they craft dishes with passion, precision, and a dash of storytelling.",
+      "subTitle": "A Look at Legends at Work",
+      "subTitleDescription": "Step into the lives of chefs who shape the culinary world, one plate at a time.",
+      "author": "Massimo Bottura",
+      "published": "2025-03-12"
+    },
+    {
+      "id": "5",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg6_ldvqpv.jpg",
+      "title": "Spice Route Diaries: Discovering the Hidden Stories Behind Every Dish",
+      "titleDescription": "Trace the origins and significance of spices that revolutionized cuisines, economies, and cultures across continents.",
+      "subTitle": "Flavors with a Story",
+      "subTitleDescription": "Experience the rich history of spice trade and its influence on modern cooking.",
+      "author": "Padma Lakshmi",
+      "published": "2025-03-11"
+    },
+    {
+      "id": "6",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154627/foodimg3_tuzhxo.jpg",
+      "title": "Forks and Fables: The Cultural Narratives That Shape What We Eat",
+      "titleDescription": "Uncover how folklore, history, and storytelling are deeply embedded in the dishes we love, forming a tapestry of taste and tradition.",
+      "subTitle": "Food as a Cultural Narrative",
+      "subTitleDescription": "Dive into the myths and meanings behind the meals on our tables.",
+      "author": "Anthony Bourdain",
+      "published": "2025-03-10"
+    },
+    {
+      "id": "7",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+      "title": "The Flavor Alchemist: Unlocking the Secrets of Molecular Gastronomy",
+      "titleDescription": "Explore the scientific revolution in cuisine where flavor, chemistry, and imagination collide to create futuristic dishes.",
+      "subTitle": "Where Science Meets Flavor",
+      "subTitleDescription": "Join the pioneers of molecular gastronomy as they transform dining into a sensory experiment.",
+      "author": "Heston Blumenthal",
+      "published": "2025-03-09"
+    },
+    {
+      "id": "8",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729878914/Frame_10124_cgpsxw.png",
+      "title": "Edible Adventures: Culinary Journeys Through Uncharted Territories",
+      "titleDescription": "Embark on wild food expeditions to discover rare ingredients, unique dishes, and the stories of people who dare to eat differently.",
+      "subTitle": "Pushing Boundaries with Every Bite",
+      "subTitleDescription": "Travel to the edges of culinary innovation with those who find flavor where others don’t dare look.",
+      "author": "Nigella Lawson",
+      "published": "2025-03-08"
+    },
+    {
+      "id": "9",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154627/foodimg3_tuzhxo.jpg",
+      "title": "Forks and Fables: The Cultural Narratives That Shape What We Eat",
+      "titleDescription": "Explore the relationship between culture and cuisine, where each bite is part of a larger story woven through time.",
+      "subTitle": "Tales Told Through Taste",
+      "subTitleDescription": "Unravel the deeper meanings hidden within everyday meals.",
+      "author": "Anthony Bourdain",
+      "published": "2025-03-07"
+    },
+    {
+      "id": "10",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+      "title": "The Flavor Alchemist: Unlocking the Secrets of Molecular Gastronomy",
+      "titleDescription": "Redefining the boundaries of taste and texture, this story reveals how molecular gastronomy changes how we experience food.",
+      "subTitle": "Experimental Dining Redefined",
+      "subTitleDescription": "Meet the chefs using science to turn meals into multisensory experiences.",
+      "author": "Heston Blumenthal",
+      "published": "2025-03-06"
+    },
+    {
+      "id": "11",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729878914/Frame_10124_cgpsxw.png",
+      "title": "Edible Adventures: Culinary Journeys Through Uncharted Territories",
+      "titleDescription": "Venture beyond familiar flavors and explore the exotic, the unexpected, and the extraordinary in food.",
+      "subTitle": "Beyond the Plate",
+      "subTitleDescription": "Follow culinary explorers seeking new frontiers in gastronomy.",
+      "author": "Nigella Lawson",
+      "published": "2025-03-05"
+    },
+    {
+      "id": "12",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154627/foodimg3_tuzhxo.jpg",
+      "title": "Forks and Fables: The Cultural Narratives That Shape What We Eat",
+      "titleDescription": "Discover how traditions, legends, and shared meals have molded societies through centuries.",
+      "subTitle": "The Soul of a Dish",
+      "subTitleDescription": "See how stories and recipes blend to create a cultural legacy.",
+      "author": "Anthony Bourdain",
+      "published": "2025-03-04"
+    },
+    {
+      "id": "13",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+      "title": "The Flavor Alchemist: Unlocking the Secrets of Molecular Gastronomy",
+      "titleDescription": "Peek into laboratories of taste where the line between chef and scientist disappears in a cloud of flavor.",
+      "subTitle": "Future Food Now",
+      "subTitleDescription": "Unveil the secrets behind the wildest food experiments and the minds that make them happen.",
+      "author": "Heston Blumenthal",
+      "published": "2025-03-03"
+    },
+    {
+      "id": "14",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729878914/Frame_10124_cgpsxw.png",
+      "title": "Edible Adventures: Culinary Journeys Through Uncharted Territories",
+      "titleDescription": "Set off on a flavorful expedition into the world’s most remote and imaginative kitchens.",
+      "subTitle": "Flavors off the Map",
+      "subTitleDescription": "Taste the untold stories of food adventurers breaking culinary norms.",
+      "author": "Nigella Lawson",
+      "published": "2025-03-02"
+    },
+    {
+      "id": "15",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154627/foodimg3_tuzhxo.jpg",
+      "title": "Forks and Fables: The Cultural Narratives That Shape What We Eat",
+      "titleDescription": "Every dish tells a tale — explore how heritage and history flavor every bite.",
+      "subTitle": "Meals That Matter",
+      "subTitleDescription": "Explore the cultural threads that bind food and identity.",
+      "author": "Anthony Bourdain",
+      "published": "2025-03-01"
+    },
+    {
+      "id": "16",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+      "title": "The Flavor Alchemist: Unlocking the Secrets of Molecular Gastronomy",
+      "titleDescription": "A deep dive into the wonders of food transformed through modern science and age-old curiosity.",
+      "subTitle": "Reinventing the Table",
+      "subTitleDescription": "Witness how food evolves in the hands of culinary scientists.",
+      "author": "Heston Blumenthal",
+      "published": "2025-02-28"
+    },
+    {
+      "id": "17",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729878914/Frame_10124_cgpsxw.png",
+      "title": "Edible Adventures: Culinary Journeys Through Uncharted Territories",
+      "titleDescription": "Embrace the unknown as we feast on the unexpected, discovering how courage and curiosity fuel new flavors.",
+      "subTitle": "The Edge of Flavor",
+      "subTitleDescription": "Taste the wild side of food with stories that inspire and challenge norms.",
+      "author": "Nigella Lawson",
+      "published": "2025-02-27"
+    },
+    {
+      "id": "6817",
+      "picture": "blob:http://localhost:5173/f503f718-b083-4762-b935-d4d5786fd487",
+      "title": "Good Cooking from Chife Chef",
+      "author": "nma c augutine",
+      "published": "21/3/2025",
+      "titleDescription": "I help home cooks to make tasty food using simple ingredients and easy-to-follow steps.  Originally from Prague and now based in L.A., I love mixing up my favorite Czech childhood recipes (hey koláče) with everyday California dishes (hello avo toast) and sharing them on this blog.",
+      "subTitle": "Cooking Today",
+      "subTitleDescription": " goodcooking.com's RECIPE ZONE New Logo  NEW DESIGN---World Recipe Server 18,000+ Recipes New Logo   Cooking Today Spring has sprung in the northern hemisphere. With it comes many religious holidays and few not such as Mother's Day! What to eat on these occasions? Tradition over the  centuries say Lamb of some sort, that is if one isn't vegetarian, vegan or you don't like lamb. Here's two ways to"
+    }
+  ],
+  "allDetail": [
+    {
+      "id": "3",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg1_jj9h2t.jpg",
+      "title": "Savor the Flavor: A Celebration of Global Dishes and Timeless Recipes",
+      "author": "Julia Child",
+      "published": "",
+      "titleDescription": "Taste the history and heart behind dishes passed down through generations. Each recipe tells a story of heritage, memory, and culinary passion.",
+      "subTitle": "Flavors That Unite",
+      "subTitleDescription": "Explore how diverse cuisines connect cultures, bringing people together over shared meals and cherished flavors."
+    },
+    {
+      "id": "4",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg5_f5ivbz.jpg",
+      "title": "Gastronomy Tales: Inside the Kitchens of the World's Greatest Chefs",
+      "author": "Massimo Bottura",
+      "published": "",
+      "titleDescription": "Peek behind the scenes into the lives and kitchens of culinary legends. Learn how passion, discipline, and creativity converge in the world’s top restaurants.",
+      "subTitle": "Masters of the Meal",
+      "subTitleDescription": "Discover the journeys, philosophies, and innovations that have shaped the world’s most celebrated culinary minds."
+    },
+    {
+      "id": "5",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg6_ldvqpv.jpg",
+      "title": "Spice Route Diaries: Discovering the Hidden Stories Behind Every Dish",
+      "author": "Padma Lakshmi",
+      "published": "",
+      "titleDescription": "Travel along the ancient spice routes and uncover the rich histories that spices bring to global cuisines. Every spice tells a tale of trade, tradition, and transformation.",
+      "subTitle": "Flavors of the Past",
+      "subTitleDescription": "Explore how spices shaped civilizations and continue to add depth, warmth, and identity to modern dishes."
+    },
+    {
+      "id": "6",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154627/foodimg3_tuzhxo.jpg",
+      "title": "Forks and Fables: The Cultural Narratives That Shape What We Eat",
+      "author": "Anthony Bourdain",
+      "published": "",
+      "titleDescription": "Delve into the myths, traditions, and social customs behind the foods we enjoy. See how every dish is steeped in cultural significance and personal stories.",
+      "subTitle": "Edible Narratives",
+      "subTitleDescription": "From ancient feasts to modern dining, learn how food reflects identity, values, and the human experience."
+    },
+    {
+      "id": "7",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+      "title": "The Flavor Alchemist: Unlocking the Secrets of Molecular Gastronomy",
+      "author": "Heston Blumenthal",
+      "published": "",
+      "titleDescription": "Enter the cutting-edge world of molecular gastronomy where science meets flavor. Explore how chefs manipulate textures, temperatures, and tastes to create culinary wonders.",
+      "subTitle": "Science on the Plate",
+      "subTitleDescription": "Uncover the innovations behind foam, gel, and spherification that are revolutionizing modern cuisine."
+    },
+    {
+      "id": "8",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729878914/Frame_10124_cgpsxw.png",
+      "title": "Edible Adventures: Culinary Journeys Through Uncharted Territories",
+      "author": "Nigella Lawson",
+      "published": "",
+      "titleDescription": "Embark on gastronomic adventures through remote and exotic regions, discovering unique ingredients and cooking techniques.",
+      "subTitle": "Flavors Off the Beaten Path",
+      "subTitleDescription": "From mountain villages to coastal markets, experience the tastes and stories that few have encountered."
+    },
+    {
+      "id": "9",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154661/fruitimg12_votfhw.jpg",
+      "title": "The Orchard Diaries: A Journey Through Nature’s Sweetest Bounty",
+      "author": "Clementine Harper",
+      "published": "",
+      "titleDescription": "Follow the seasons through the eyes of an orchardist, celebrating the cycles of growth, harvest, and the joys of fruit farming.",
+      "subTitle": "From Blossom to Basket",
+      "subTitleDescription": "Delight in the care, patience, and natural beauty that bring fresh fruits to our tables."
+    },
+    {
+      "id": "10",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg6_o5q8pd.jpg",
+      "title": "Fruitful Tales: Legends and Recipes from the World’s Vibrant Groves",
+      "author": "Berry Thompson",
+      "published": "",
+      "titleDescription": "Explore the lore, legends, and culinary uses of fruits across cultures, revealing how they’ve inspired everything from myths to medicines.",
+      "subTitle": "Fruit in Folklore",
+      "subTitleDescription": "Unearth stories and dishes that highlight the symbolic and nourishing power of fruits through time."
+    },
+    {
+      "id": "11",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg10_tcws66.jpg",
+      "title": "Citrus Symphony: Exploring the Zest and Zeal of Sun-Kissed Fruits",
+      "author": "Valencia Ray",
+      "published": "",
+      "titleDescription": "Celebrate the bright, tangy flavors of citrus fruits and their roles in refreshing drinks, vibrant dishes, and health remedies.",
+      "subTitle": "Zest for Life",
+      "subTitleDescription": "Experience the sensory joy of citrus—from the orchard to the kitchen—and its ability to uplift any dish."
+    },
+    {
+      "id": "13",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Pomegranate Dreams: Mythology and Medicine from Seed to Skin",
+      "author": "Ruby Granate",
+      "published": "",
+      "titleDescription": "Dive into the ancient and modern significance of pomegranates in healing, beauty, and spiritual rituals.",
+      "subTitle": "Seeds of Symbolism",
+      "subTitleDescription": "Learn how this jewel-like fruit embodies fertility, health, and wisdom in various cultures."
+    },
+    {
+      "id": "14",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg9_sy5jtx.jpg",
+      "title": "Melon Muse: Sweet Slices of Summer and the Art of Refreshment",
+      "author": "Honey D. Loup",
+      "published": "",
+      "titleDescription": "Enjoy the juicy delights of melons and their role in summer feasts, hydration, and culinary creativity.",
+      "subTitle": "Chill and Slice",
+      "subTitleDescription": "Discover the refreshing versatility of melons in dishes, desserts, and drinks around the world."
+    },
+    {
+      "id": "15",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg5_hsivjl.jpg",
+      "title": "Berry Bliss: From Forest Floors to Fine Dining Tables",
+      "author": "Straw Belle",
+      "published": "",
+      "titleDescription": "Trace the journey of berries from wild foraging to gourmet cuisine, exploring their health benefits and culinary versatility.",
+      "subTitle": "Little Fruits, Big Flavors",
+      "subTitleDescription": "See how berries bring bursts of flavor, color, and nutrition to dishes both simple and sophisticated."
+    },
+    {
+      "id": "16",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Fruitopia: A Global Expedition into the World’s Juiciest Discoveries",
+      "author": "Jackie Fruitson",
+      "published": "",
+      "titleDescription": "Embark on a global expedition to discover rare and celebrated fruits, their origins, and their place in cultural traditions.",
+      "subTitle": "The World in a Fruit Bowl",
+      "subTitleDescription": "Taste the globe through exotic fruits and the stories of those who grow, harvest, and cherish them."
+    },
+    {
+      "id": "17",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154679/newsimg1_nhsgsn.jpg",
+      "title": "The Mental Health Surge: Understanding the Global Rise in Anxiety and Depression",
+      "author": "Elena Michaels",
+      "published": "",
+      "titleDescription": "Delve into the complex causes and far-reaching impact of rising mental health issues across societies and age groups.",
+      "subTitle": "Healing Minds, Changing Lives",
+      "subTitleDescription": "Explore interventions, therapies, and community efforts working to support mental well-being worldwide."
+    },
+    {
+      "id": "18",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg2_glqsd4.jpg",
+      "title": "Vaccines and Variants: How Scientists Are Staying Ahead of Emerging Viruses",
+      "author": "Marcus Lee",
+      "published": "",
+      "titleDescription": "Follow the race between evolving viruses and cutting-edge vaccine research aiming to protect global health.",
+      "subTitle": "Science vs. Outbreaks",
+      "subTitleDescription": "Learn how global collaboration and scientific innovation are essential in combating health crises."
+    },
+    {
+      "id": "19",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg3_wwojd8.png",
+      "title": "Nutrition Nation: The Impact of Diet Trends on Public Health Outcomes",
+      "author": "Tariq Johnson",
+      "published": "",
+      "titleDescription": "Examine how evolving diets affect public health, from veganism to keto, and their impact on wellbeing and policy.",
+      "subTitle": "What’s on the Plate Matters",
+      "subTitleDescription": "Discover how food trends influence disease prevention, weight management, and lifestyle choices."
+    },
+    {
+      "id": "20",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg4_tr7bm8.jpg",
+      "title": "Heart Health Matters: New Guidelines Aim to Combat Rising Cardiovascular Risks",
+      "author": "Sophie Chen",
+      "published": "",
+      "titleDescription": "Understand the new medical recommendations for heart health and the lifestyle changes they promote.",
+      "subTitle": "Healthy Heart, Healthy Life",
+      "subTitleDescription": "Explore strategies, diets, and innovations helping people reduce cardiovascular risk and live longer."
+    },
+    {
+      "id": "21",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg5_jgsnz4.jpg",
+      "title": "Climate and Health: The Overlooked Link in Global Warming Discourse",
+      "author": "Dr. Maria Stein",
+      "published": "",
+      "titleDescription": "Explore the often-neglected relationship between climate change and public health, from rising respiratory issues to disease migration.",
+      "subTitle": "A Planet in Peril, People at Risk",
+      "subTitleDescription": "Understand how environmental changes are creating new health challenges and what can be done to mitigate them."
+    },
+    {
+      "id": "22",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg6_qz7lvs.jpg",
+      "title": "Digital Detox: The Growing Movement for Screen-Free Wellness",
+      "author": "Liam Foster",
+      "published": "",
+      "titleDescription": "Dive into the rising awareness of digital well-being and how people are reclaiming time, focus, and health by reducing screen time.",
+      "subTitle": "Unplug to Reconnect",
+      "subTitleDescription": "Discover practical tips and inspiring stories of those embracing a more mindful, less tech-saturated lifestyle."
+    },
+    {
+      "id": "23",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg7_shg7hc.jpg",
+      "title": "AI in Healthcare: Revolutionizing Diagnosis, Treatment, and Patient Care",
+      "author": "Neha Patel",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges of integrating AI into everyday medical practices."
+    },
+    {
+      "id": "253f",
+      "picture": "blob:http://localhost:5174/e6b11626-5b0b-4507-be89-40dc02cf2138",
+      "title": "food",
+      "author": "Obi E",
+      "published": "20/3/2025",
+      "titleDescription": "I help home cooks to make tasty food using simple ingredients and easy-to-follow steps.  Originally from Prague and now based in L.A., I love mixing up my favorite Czech childhood recipes (hey koláče) with everyday California dishes (hello avo toast) and sharing them on this blog.",
+      "subTitle": "Cooking Today",
+      "subTitleDescription": " goodcooking.com's RECIPE ZONE New Logo  NEW DESIGN---World Recipe Server 18,000+ Recipes New Logo   Cooking Today Spring has sprung in the northern hemisphere. With it comes many religious holidays and few not such as Mother's Day! What to eat on these occasions? Tradition over the  centuries say Lamb of some sort, that is if one isn't vegetarian, vegan or you don't like lamb. Here's two ways to"
+    },
+    {
+      "id": 1742657629186, 
+      "picture": "blob:http://localhost:5174/d809e217-df7f-4eb2-be4e-997b74142fb1",
+      "title": "Fruit House",
+      "author": "nma ugo",
+      "published": "21/3/2025",
+      "titleDescription": "I help home cooks to make tasty food using simple ingredients and easy-to-follow steps.  Originally from Prague and now based in L.A., I love mixing up my favorite Czech childhood recipes (hey koláče) with everyday California dishes (hello avo toast) and sharing them on this blog.",
+      "subTitle": "Cooking Today is good",
+      "subTitleDescription": " goodcooking.com's RECIPE ZONE New Logo  NEW DESIGN---World Recipe Server 18,000+ Recipes New Logo   Cooking Today Spring has sprung in the northern hemisphere. With it comes many religious holidays and few not such as Mother's Day! What to eat on these occasions? Tradition over the  centuries say Lamb of some sort, that is if one isn't vegetarian, vegan or you don't like lamb. Here's two ways to"
+    }
+  ],
+  "fruitDetail": [
+    {
+      "id": "1",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154661/fruitimg12_votfhw.jpg",
+      "title": "The Orchard Diaries: A Journey Through Nature’s Sweetest Bounty",
+      "author": "Clementine Harper",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "2",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg6_o5q8pd.jpg",
+      "title": "Fruitful Tales: Legends and Recipes from the World’s Vibrant Groves",
+      "author": "Berry Thompson",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "3",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg10_tcws66.jpg",
+      "title": "Citrus Symphony: Exploring the Zest and Zeal of Sun-Kissed Fruits",
+      "author": "Valencia Ray",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "4",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg7_bkywcr.jpg",
+      "title": "Banana Republic: Cultural Stories and Culinary Wonders of the Tropics",
+      "author": "Mango Wells",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "5",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Pomegranate Dreams: Mythology and Medicine from Seed to Skin",
+      "author": "Ruby Granate",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "6",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg9_sy5jtx.jpg",
+      "title": "Melon Muse: Sweet Slices of Summer and the Art of Refreshment",
+      "author": "Honey D. Loup",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "7",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg5_hsivjl.jpg",
+      "title": "Berry Bliss: From Forest Floors to Fine Dining Tables",
+      "author": "Straw Belle",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "8",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Fruitopia: A Global Expedition into the World’s Juiciest Discoveries",
+      "author": "Jackie Fruitson",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    }
+  ],
+  "newsDetail": [
+    {
+      "id": "1",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154679/newsimg1_nhsgsn.jpg",
+      "title": "The Mental Health Surges: Understanding the Global Rise in Anxiety and Depression",
+      "author": "Elena Michaels",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "2",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg2_glqsd4.jpg",
+      "title": "Vaccines and Variants: How Scientists Are Staying Ahead of Emerging Viruses",
+      "author": "Marcus Lee",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "3",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg3_wwojd8.png",
+      "title": "Nutrition Nation: The Impact of Diet Trends on Public Health Outcomes",
+      "author": "Tariq Johnson",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "4",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg4_tr7bm8.jpg",
+      "title": "Heart Health Matters: New Guidelines Aim to Combat Rising Cardiovascular Risks",
+      "author": "Sophie Chen",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "5",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg5_jgsnz4.jpg",
+      "title": "Climate and Health: How a Warming Planet is Influencing Disease Patterns",
+      "author": "David Nkrumah",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "6",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg11_w9pwe2.jpg",
+      "title": "AI in Healthcare: Revolutionizing Diagnostics and Patient Care Delivery",
+      "author": "Priya Desai",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "7",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg12_pzzznz.jpg",
+      "title": "Mental Wellness in the Workplace: Companies Investing in Employee Health",
+      "author": "Carlos Mendoza",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "8",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg13_n4inhu.jpg",
+      "title": "Global Health Innovations: Medical Breakthroughs Transforming Lives in 2025",
+      "author": "Lina Petrova",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    }
+  ],
+  "users": [
+    {
+      "id": "18ac",
+      "author": "Chidinma C",
+      "email": "ugonna@gmail.com",
+      "password": "March13@1990"
+    },
+    {
+      "id": "30b1",
+      "author": "Augustine",
+      "email": "augustine@gmail.com",
+      "password": "Augu@1396"
+    },
+    {
+      "id": "e03a",
+      "author": "Ego",
+      "email": "ego@gmail.com",
+      "password": "Ego13@1996"
+    },
+    {
+      "id": "9b70",
+      "author": "NMA",
+      "email": "nma@gmail.com",
+      "password": "nma@131990"
+    },
+    {
+      "id": "6d91",
+      "author": "Nma Augustine",
+      "email": "nma@gmail.com",
+      "password": "March13@1990"
+    },
+    {
+      "id": "7f5e",
+      "author": "Chioma Ugonna",
+      "email": "chioma@gmail.com",
+      "password": "C123@1234"
+    }
+  ]
+}
+
+
+editted one
+{
+  "all": [
+  {
+    "id": 1,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg2_ibaac1.webp",
+    "title": "The Bread and Butter Chronicles: A Journey Through Everyday Culinary Magic",
+    "author": "Alice Waters",
+    "published": ""
+  },
+  {
+    "id": 2,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg4_kwm0e2.jpg",
+    "title": "Culinary Canvas: Exploring Artistry in Modern Cuisine Around the World",
+    "author": "Gordon Ramsay",
+    "published": ""
+  },
+  {
+    "id": 3,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg1_jj9h2t.jpg",
+    "title": "Savor the Flavor: A Celebration of Global Dishes and Timeless Recipes",
+    "author": "Julia Child",
+    "published": ""
+  },
+  {
+    "id": 4,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg5_f5ivbz.jpg",
+    "title": "Gastronomy Tales: Inside the Kitchens of the World's Greatest Chefs",
+    "author": "Massimo Bottura",
+    "published": ""
+  },
+  {
+    "id": 5,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg6_ldvqpv.jpg",
+    "title": "Spice Route Diaries: Discovering the Hidden Stories Behind Every Dish",
+    "author": "Padma Lakshmi",
+    "published": ""
+  },
+  {
+    "id": 6,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154627/foodimg3_tuzhxo.jpg",
+    "title": "Forks and Fables: The Cultural Narratives That Shape What We Eat",
+    "author": "Anthony Bourdain",
+    "published": ""
+  },
+  {
+    "id": 7,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+    "title": "The Flavor Alchemist: Unlocking the Secrets of Molecular Gastronomy",
+    "author": "Heston Blumenthal",
+    "published": ""
+  },
+  {
+    "id": 8,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729878914/Frame_10124_cgpsxw.png",
+    "title": "Edible Adventures: Culinary Journeys Through Uncharted Territories",
+    "author": "Nigella Lawson",
+    "published": ""
+  },
+  {
+    "id": 9,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154661/fruitimg12_votfhw.jpg",
+    "title": "The Orchard Diaries: A Journey Through Nature’s Sweetest Bounty",
+    "author": "Clementine Harper",
+    "published": ""
+  },
+  {
+    "id": 10,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg6_o5q8pd.jpg",
+    "title": "Fruitful Tales: Legends and Recipes from the World’s Vibrant Groves",
+    "author": "Berry Thompson",
+    "published": ""
+  },
+  {
+    "id": 11,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg10_tcws66.jpg",
+    "title": "Citrus Symphony: Exploring the Zest and Zeal of Sun-Kissed Fruits",
+    "author": "Valencia Ray",
+    "published": ""
+  },
+  {
+    "id": 12,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg7_bkywcr.jpg",
+    "title": "Banana Republic: Cultural Stories and Culinary Wonders of the Tropics",
+    "author": "Mango Wells",
+    "published": ""
+  },
+  {
+    "id": 13,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+    "title": "Pomegranate Dreams: Mythology and Medicine from Seed to Skin",
+    "author": "Ruby Granate",
+    "published": ""
+  },
+  {
+    "id": 14,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg9_sy5jtx.jpg",
+    "title": "Melon Muse: Sweet Slices of Summer and the Art of Refreshment",
+    "author": "Honey D. Loup",
+    "published": ""
+  },
+  {
+    "id": 15,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg5_hsivjl.jpg",
+    "title": "Berry Bliss: From Forest Floors to Fine Dining Tables",
+    "author": "Straw Belle",
+    "published": ""
+  },
+  {
+    "id": 16,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+    "title": "Fruitopia: A Global Expedition into the World’s Juiciest Discoveries",
+    "author": "Jackie Fruitson",
+    "published": ""
+  },
+  {
+    "id": 17,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154679/newsimg1_nhsgsn.jpg",
+    "title": "The Mental Health Surge: Understanding the Global Rise in Anxiety and Depression",
+    "author": "Elena Michaels",
+    "published": ""
+  },
+  {
+    "id": 18,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg2_glqsd4.jpg",
+    "title": "Vaccines and Variants: How Scientists Are Staying Ahead of Emerging Viruses",
+    "author": "Marcus Lee",
+    "published": ""
+  },
+  {
+    "id": 19,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg3_wwojd8.png",
+    "title": "Nutrition Nation: The Impact of Diet Trends on Public Health Outcomes",
+    "author": "Tariq Johnson",
+    "published": ""
+  },
+  {
+    "id": 20,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg4_tr7bm8.jpg",
+    "title": "Heart Health Matters: New Guidelines Aim to Combat Rising Cardiovascular Risks",
+    "author": "Sophie Chen",
+    "published": ""
+  },
+  {
+    "id": 21,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg5_jgsnz4.jpg",
+    "title": "Climate and Health: How a Warming Planet is Influencing Disease Patterns",
+    "author": "David Nkrumah",
+    "published": ""
+  },
+  {
+    "id": 22,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg11_w9pwe2.jpg",
+    "title": "AI in Healthcare: Revolutionizing Diagnostics and Patient Care Delivery",
+    "author": "Priya Desai",
+    "published": ""
+  },
+  {
+    "id": 23,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg12_pzzznz.jpg",
+    "title": "Mental Wellness in the Workplace: Companies Investing in Employee Health",
+    "author": "Carlos Mendoza",
+    "published": ""
+  },
+  {
+    "id": 24,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg13_n4inhu.jpg",
+    "title": "Global Health Innovations: Medical Breakthroughs Transforming Lives in 2025",
+    "author": "Lina Petrova",
+    "published": ""
+  }
+  ],
+  "food": [
+    {
+      "id": 1,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg2_ibaac1.webp",
+      "title": "The Bread and Butter Chronicles: A Journey Through Everyday Culinary Magic",
+      "author": "Alice Waters",
+      "published": ""
+    },
+    {
+      "id": 2,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg4_kwm0e2.jpg",
+      "title": "Culinary Canvas: Exploring Artistry in Modern Cuisine Around the World",
+      "author": "Gordon Ramsay",
+      "published": ""
+    },
+    {
+      "id": 3,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg1_jj9h2t.jpg",
+      "title": "Savor the Flavor: A Celebration of Global Dishes and Timeless Recipes",
+      "author": "Julia Child",
+      "published": ""
+    },
+    {
+      "id": 4,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg5_f5ivbz.jpg",
+      "title": "Gastronomy Tales: Inside the Kitchens of the World's Greatest Chefs",
+      "author": "Massimo Bottura",
+      "published": ""
+    },
+    {
+      "id": 5,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg6_ldvqpv.jpg",
+      "title": "Spice Route Diaries: Discovering the Hidden Stories Behind Every Dish",
+      "author": "Padma Lakshmi",
+      "published": ""
+    },
+    {
+      "id": 6,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154627/foodimg3_tuzhxo.jpg",
+      "title": "Forks and Fables: The Cultural Narratives That Shape What We Eat",
+      "author": "Anthony Bourdain",
+      "published": ""
+    },
+    {
+      "id": 7,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+      "title": "The Flavor Alchemist: Unlocking the Secrets of Molecular Gastronomy",
+      "author": "Heston Blumenthal",
+      "published": ""
+    },
+    {
+      "id": 8,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729878914/Frame_10124_cgpsxw.png",
+      "title": "Edible Adventures: Culinary Journeys Through Uncharted Territories",
+      "author": "Nigella Lawson",
+      "published": ""
+    }
+  ],
+  "fruit": [
+  {
+    "id": 1,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154661/fruitimg12_votfhw.jpg",
+    "title": "The Orchard Diaries: A Journey Through Nature’s Sweetest Bounty",
+    "author": "Clementine Harper",
+    "published": ""
+  },
+  {
+    "id": 2,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg6_o5q8pd.jpg",
+    "title": "Fruitful Tales: Legends and Recipes from the World’s Vibrant Groves",
+    "author": "Berry Thompson",
+    "published": ""
+  },
+  {
+    "id": 3,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg10_tcws66.jpg",
+    "title": "Citrus Symphony: Exploring the Zest and Zeal of Sun-Kissed Fruits",
+    "author": "Valencia Ray",
+    "published": ""
+  },
+  {
+    "id": 4,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg7_bkywcr.jpg",
+    "title": "Banana Republic: Cultural Stories and Culinary Wonders of the Tropics",
+    "author": "Mango Wells",
+    "published": ""
+  },
+  {
+    "id": 5,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+    "title": "Pomegranate Dreams: Mythology and Medicine from Seed to Skin",
+    "author": "Ruby Granate",
+    "published": ""
+  },
+  {
+    "id": 6,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg9_sy5jtx.jpg",
+    "title": "Melon Muse: Sweet Slices of Summer and the Art of Refreshment",
+    "author": "Honey D. Loup",
+    "published": ""
+  },
+  {
+    "id": 7,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg5_hsivjl.jpg",
+    "title": "Berry Bliss: From Forest Floors to Fine Dining Tables",
+    "author": "Straw Belle",
+    "published": ""
+  },
+  {
+    "id": 8,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+    "title": "Fruitopia: A Global Expedition into the World’s Juiciest Discoveries",
+    "author": "Jackie Fruitson",
+    "published": ""
+  }
+  ],
+  "news": [
+  {
+    "id": 1,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154679/newsimg1_nhsgsn.jpg",
+    "title": "The Mental Health Surge: Understanding the Global Rise in Anxiety and Depression",
+    "author": "Elena Michaels",
+    "published": ""
+  },
+  {
+    "id": 2,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg2_glqsd4.jpg",
+    "title": "Vaccines and Variants: How Scientists Are Staying Ahead of Emerging Viruses",
+    "author": "Marcus Lee",
+    "published": ""
+  },
+  {
+    "id": 3,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg3_wwojd8.png",
+    "title": "Nutrition Nation: The Impact of Diet Trends on Public Health Outcomes",
+    "author": "Tariq Johnson",
+    "published": ""
+  },
+  {
+    "id": 4,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg4_tr7bm8.jpg",
+    "title": "Heart Health Matters: New Guidelines Aim to Combat Rising Cardiovascular Risks",
+    "author": "Sophie Chen",
+    "published": ""
+  },
+  {
+    "id": 5,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg5_jgsnz4.jpg",
+    "title": "Climate and Health: How a Warming Planet is Influencing Disease Patterns",
+    "author": "David Nkrumah",
+    "published": ""
+  },
+  {
+    "id": 6,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg11_w9pwe2.jpg",
+    "title": "AI in Healthcare: Revolutionizing Diagnostics and Patient Care Delivery",
+    "author": "Priya Desai",
+    "published": ""
+  },
+  {
+    "id": 7,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg12_pzzznz.jpg",
+    "title": "Mental Wellness in the Workplace: Companies Investing in Employee Health",
+    "author": "Carlos Mendoza",
+    "published": ""
+  },
+  {
+    "id": 8,
+    "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg13_n4inhu.jpg",
+    "title": "Global Health Innovations: Medical Breakthroughs Transforming Lives in 2025",
+    "author": "Lina Petrova",
+    "published": ""
+  }
+],
+  "foodDetail": [
+    {
+      "id": "1",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg2_ibaac1.webp",
+      "title": "The Breads and Butter Chronicles: A Journey Through Everyday Culinary Magic",
+      "titleDescription": "Explore the simple yet profound impact of everyday meals through the eyes of passionate chefs and home cooks alike. From warm loaves of bread to perfectly buttered toast, this story reveals how comfort food connects cultures, memories, and generations.",
+      "subTitle": "Rediscovering Simplicity in the Kitchen",
+      "subTitleDescription": "Join us on a heartfelt journey celebrating the unsung heroes of our kitchens — bread and butter — and the remarkable stories they tell.",
+      "author": "Alice Waters",
+      "published": "2025-03-15"
+    },
+    {
+      "id": "2",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg4_kwm0e2.jpg",
+      "title": "Culinary Canvas: Exploring Artistry in Modern Cuisine Around the World",
+      "titleDescription": "Dive into the intersection of food and art as chefs turn plates into masterpieces using bold flavors, colors, and textures from diverse cultures.",
+      "subTitle": "When Cooking Becomes an Art Form",
+      "subTitleDescription": "Discover how culinary artists from around the globe redefine creativity in the kitchen through innovation and tradition.",
+      "author": "Gordon Ramsay",
+      "published": "2025-03-14"
+    },
+    {
+      "id": "3",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg1_jj9h2t.jpg",
+      "title": "Savor the Flavor: A Celebration of Global Dishes and Timeless Recipes",
+      "titleDescription": "A delicious journey through iconic recipes and the cultures that shaped them, highlighting timeless flavors loved across generations.",
+      "subTitle": "Tastes That Transcend Borders",
+      "subTitleDescription": "Uncover the stories and secrets behind dishes that have become beloved staples worldwide.",
+      "author": "Julia Child",
+      "published": "2025-03-13"
+    },
+    {
+      "id": "4",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg5_f5ivbz.jpg",
+      "title": "Gastronomy Tales: Inside the Kitchens of the World's Greatest Chefs",
+      "titleDescription": "Go behind the scenes in the kitchens of culinary legends as they craft dishes with passion, precision, and a dash of storytelling.",
+      "subTitle": "A Look at Legends at Work",
+      "subTitleDescription": "Step into the lives of chefs who shape the culinary world, one plate at a time.",
+      "author": "Massimo Bottura",
+      "published": "2025-03-12"
+    },
+    {
+      "id": "5",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg6_ldvqpv.jpg",
+      "title": "Spice Route Diaries: Discovering the Hidden Stories Behind Every Dish",
+      "titleDescription": "Trace the origins and significance of spices that revolutionized cuisines, economies, and cultures across continents.",
+      "subTitle": "Flavors with a Story",
+      "subTitleDescription": "Experience the rich history of spice trade and its influence on modern cooking.",
+      "author": "Padma Lakshmi",
+      "published": "2025-03-11"
+    },
+    {
+      "id": "6",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154627/foodimg3_tuzhxo.jpg",
+      "title": "Forks and Fables: The Cultural Narratives That Shape What We Eat",
+      "titleDescription": "Uncover how folklore, history, and storytelling are deeply embedded in the dishes we love, forming a tapestry of taste and tradition.",
+      "subTitle": "Food as a Cultural Narrative",
+      "subTitleDescription": "Dive into the myths and meanings behind the meals on our tables.",
+      "author": "Anthony Bourdain",
+      "published": "2025-03-10"
+    },
+    {
+      "id": "7",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+      "title": "The Flavor Alchemist: Unlocking the Secrets of Molecular Gastronomy",
+      "titleDescription": "Explore the scientific revolution in cuisine where flavor, chemistry, and imagination collide to create futuristic dishes.",
+      "subTitle": "Where Science Meets Flavor",
+      "subTitleDescription": "Join the pioneers of molecular gastronomy as they transform dining into a sensory experiment.",
+      "author": "Heston Blumenthal",
+      "published": "2025-03-09"
+    },
+    {
+      "id": "8",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729878914/Frame_10124_cgpsxw.png",
+      "title": "Edible Adventures: Culinary Journeys Through Uncharted Territories",
+      "titleDescription": "Embark on wild food expeditions to discover rare ingredients, unique dishes, and the stories of people who dare to eat differently.",
+      "subTitle": "Pushing Boundaries with Every Bite",
+      "subTitleDescription": "Travel to the edges of culinary innovation with those who find flavor where others don’t dare look.",
+      "author": "Nigella Lawson",
+      "published": "2025-03-08"
+    },
+    {
+      "id": "9",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154627/foodimg3_tuzhxo.jpg",
+      "title": "Forks and Fables: The Cultural Narratives That Shape What We Eat",
+      "titleDescription": "Explore the relationship between culture and cuisine, where each bite is part of a larger story woven through time.",
+      "subTitle": "Tales Told Through Taste",
+      "subTitleDescription": "Unravel the deeper meanings hidden within everyday meals.",
+      "author": "Anthony Bourdain",
+      "published": "2025-03-07"
+    },
+    {
+      "id": "10",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+      "title": "The Flavor Alchemist: Unlocking the Secrets of Molecular Gastronomy",
+      "titleDescription": "Redefining the boundaries of taste and texture, this story reveals how molecular gastronomy changes how we experience food.",
+      "subTitle": "Experimental Dining Redefined",
+      "subTitleDescription": "Meet the chefs using science to turn meals into multisensory experiences.",
+      "author": "Heston Blumenthal",
+      "published": "2025-03-06"
+    },
+    {
+      "id": "11",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729878914/Frame_10124_cgpsxw.png",
+      "title": "Edible Adventures: Culinary Journeys Through Uncharted Territories",
+      "titleDescription": "Venture beyond familiar flavors and explore the exotic, the unexpected, and the extraordinary in food.",
+      "subTitle": "Beyond the Plate",
+      "subTitleDescription": "Follow culinary explorers seeking new frontiers in gastronomy.",
+      "author": "Nigella Lawson",
+      "published": "2025-03-05"
+    },
+    {
+      "id": "12",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154627/foodimg3_tuzhxo.jpg",
+      "title": "Forks and Fables: The Cultural Narratives That Shape What We Eat",
+      "titleDescription": "Discover how traditions, legends, and shared meals have molded societies through centuries.",
+      "subTitle": "The Soul of a Dish",
+      "subTitleDescription": "See how stories and recipes blend to create a cultural legacy.",
+      "author": "Anthony Bourdain",
+      "published": "2025-03-04"
+    },
+    {
+      "id": "13",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+      "title": "The Flavor Alchemist: Unlocking the Secrets of Molecular Gastronomy",
+      "titleDescription": "Peek into laboratories of taste where the line between chef and scientist disappears in a cloud of flavor.",
+      "subTitle": "Future Food Now",
+      "subTitleDescription": "Unveil the secrets behind the wildest food experiments and the minds that make them happen.",
+      "author": "Heston Blumenthal",
+      "published": "2025-03-03"
+    },
+    {
+      "id": "14",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729878914/Frame_10124_cgpsxw.png",
+      "title": "Edible Adventures: Culinary Journeys Through Uncharted Territories",
+      "titleDescription": "Set off on a flavorful expedition into the world’s most remote and imaginative kitchens.",
+      "subTitle": "Flavors off the Map",
+      "subTitleDescription": "Taste the untold stories of food adventurers breaking culinary norms.",
+      "author": "Nigella Lawson",
+      "published": "2025-03-02"
+    },
+    {
+      "id": "15",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154627/foodimg3_tuzhxo.jpg",
+      "title": "Forks and Fables: The Cultural Narratives That Shape What We Eat",
+      "titleDescription": "Every dish tells a tale — explore how heritage and history flavor every bite.",
+      "subTitle": "Meals That Matter",
+      "subTitleDescription": "Explore the cultural threads that bind food and identity.",
+      "author": "Anthony Bourdain",
+      "published": "2025-03-01"
+    },
+    {
+      "id": "16",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+      "title": "The Flavor Alchemist: Unlocking the Secrets of Molecular Gastronomy",
+      "titleDescription": "A deep dive into the wonders of food transformed through modern science and age-old curiosity.",
+      "subTitle": "Reinventing the Table",
+      "subTitleDescription": "Witness how food evolves in the hands of culinary scientists.",
+      "author": "Heston Blumenthal",
+      "published": "2025-02-28"
+    },
+    {
+      "id": "17",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729878914/Frame_10124_cgpsxw.png",
+      "title": "Edible Adventures: Culinary Journeys Through Uncharted Territories",
+      "titleDescription": "Embrace the unknown as we feast on the unexpected, discovering how courage and curiosity fuel new flavors.",
+      "subTitle": "The Edge of Flavor",
+      "subTitleDescription": "Taste the wild side of food with stories that inspire and challenge norms.",
+      "author": "Nigella Lawson",
+      "published": "2025-02-27"
+    },
+    {
+      "id": "6817",
+      "picture": "blob:http://localhost:5173/f503f718-b083-4762-b935-d4d5786fd487",
+      "title": "Good Cooking from Chife Chef",
+      "author": "nma c augutine",
+      "published": "21/3/2025",
+      "titleDescription": "I help home cooks to make tasty food using simple ingredients and easy-to-follow steps.  Originally from Prague and now based in L.A., I love mixing up my favorite Czech childhood recipes (hey koláče) with everyday California dishes (hello avo toast) and sharing them on this blog.",
+      "subTitle": "Cooking Today",
+      "subTitleDescription": " goodcooking.com's RECIPE ZONE New Logo  NEW DESIGN---World Recipe Server 18,000+ Recipes New Logo   Cooking Today Spring has sprung in the northern hemisphere. With it comes many religious holidays and few not such as Mother's Day! What to eat on these occasions? Tradition over the  centuries say Lamb of some sort, that is if one isn't vegetarian, vegan or you don't like lamb. Here's two ways to"
+    }
+  ],
+  "allDetail": [
+        {
+          "id": 1,
+          "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg2_ibaac1.webp",
+          "title": "The Bread and Butter Chronicles: A Journey Through Everyday Culinary Magic",
+          "author": "Alice Waters",
+          "published": "",
+          "titleDescription": "Step into a world where simple ingredients create extraordinary stories. Explore how daily culinary routines weave rich narratives of comfort, culture, and creativity.",
+          "subTitle": "Simplicity in Every Slice",
+          "subTitleDescription": "Discover how humble bread and butter become the foundation for culinary traditions that bring families and communities together."
+        },
+        {
+          "id": 2,
+          "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg4_kwm0e2.jpg",
+          "title": "Culinary Canvas: Exploring Artistry in Modern Cuisine Around the World",
+          "author": "Gordon Ramsay",
+          "published": "",
+          "titleDescription": "Embark on a journey through the vibrant world of contemporary cuisine, where chefs blend innovation and tradition to create edible masterpieces.",
+          "subTitle": "Plates as Paintings",
+          "subTitleDescription": "Witness how modern gastronomy transforms meals into art, with every dish a bold statement of culture, creativity, and craftsmanship."
+        },
+        {
+          "id": 3,
+          "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg1_jj9h2t.jpg",
+          "title": "Savor the Flavor: A Celebration of Global Dishes and Timeless Recipes",
+          "author": "Julia Child",
+          "published": "",
+          "titleDescription": "Taste the history and heart behind dishes passed down through generations. Each recipe tells a story of heritage, memory, and culinary passion.",
+          "subTitle": "Flavors That Unite",
+          "subTitleDescription": "Explore how diverse cuisines connect cultures, bringing people together over shared meals and cherished flavors."
+        },
+        {
+          "id": 4,
+          "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg5_f5ivbz.jpg",
+          "title": "Gastronomy Tales: Inside the Kitchens of the World's Greatest Chefs",
+          "author": "Massimo Bottura",
+          "published": "",
+          "titleDescription": "Peek behind the scenes into the lives and kitchens of culinary legends. Learn how passion, discipline, and creativity converge in the world’s top restaurants.",
+          "subTitle": "Masters of the Meal",
+          "subTitleDescription": "Discover the journeys, philosophies, and innovations that have shaped the world’s most celebrated culinary minds."
+        },
+        {
+          "id": 5,
+          "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg6_ldvqpv.jpg",
+          "title": "Spice Route Diaries: Discovering the Hidden Stories Behind Every Dish",
+          "author": "Padma Lakshmi",
+          "published": "",
+          "titleDescription": "Travel along the ancient spice routes and uncover the rich histories that spices bring to global cuisines. Every spice tells a tale of trade, tradition, and transformation.",
+          "subTitle": "Flavors of the Past",
+          "subTitleDescription": "Explore how spices shaped civilizations and continue to add depth, warmth, and identity to modern dishes."
+        },
+        {
+          "id": 6,
+          "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154627/foodimg3_tuzhxo.jpg",
+          "title": "Forks and Fables: The Cultural Narratives That Shape What We Eat",
+          "author": "Anthony Bourdain",
+          "published": "",
+          "titleDescription": "Delve into the myths, traditions, and social customs behind the foods we enjoy. See how every dish is steeped in cultural significance and personal stories.",
+          "subTitle": "Edible Narratives",
+          "subTitleDescription": "From ancient feasts to modern dining, learn how food reflects identity, values, and the human experience."
+        },
+        {
+          "id": 7,
+          "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+          "title": "The Flavor Alchemist: Unlocking the Secrets of Molecular Gastronomy",
+          "author": "Heston Blumenthal",
+          "published": "",
+          "titleDescription": "Enter the cutting-edge world of molecular gastronomy where science meets flavor. Explore how chefs manipulate textures, temperatures, and tastes to create culinary wonders.",
+          "subTitle": "Science on the Plate",
+          "subTitleDescription": "Uncover the innovations behind foam, gel, and spherification that are revolutionizing modern cuisine."
+        },
+        {
+          "id": 8,
+          "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729878914/Frame_10124_cgpsxw.png",
+          "title": "Edible Adventures: Culinary Journeys Through Uncharted Territories",
+          "author": "Nigella Lawson",
+          "published": "",
+          "titleDescription": "Embark on gastronomic adventures through remote and exotic regions, discovering unique ingredients and cooking techniques.",
+          "subTitle": "Flavors Off the Beaten Path",
+          "subTitleDescription": "From mountain villages to coastal markets, experience the tastes and stories that few have encountered."
+        },
+        {
+          "id": 9,
+          "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154661/fruitimg12_votfhw.jpg",
+          "title": "The Orchard Diaries: A Journey Through Nature’s Sweetest Bounty",
+          "author": "Clementine Harper",
+          "published": "",
+          "titleDescription": "Follow the seasons through the eyes of an orchardist, celebrating the cycles of growth, harvest, and the joys of fruit farming.",
+          "subTitle": "From Blossom to Basket",
+          "subTitleDescription": "Delight in the care, patience, and natural beauty that bring fresh fruits to our tables."
+        },
+        {
+          "id": 10,
+          "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg6_o5q8pd.jpg",
+          "title": "Fruitful Tales: Legends and Recipes from the World’s Vibrant Groves",
+          "author": "Berry Thompson",
+          "published": "",
+          "titleDescription": "Explore the lore, legends, and culinary uses of fruits across cultures, revealing how they’ve inspired everything from myths to medicines.",
+          "subTitle": "Fruit in Folklore",
+          "subTitleDescription": "Unearth stories and dishes that highlight the symbolic and nourishing power of fruits through time."
+        },
+        {
+          "id": 11,
+          "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg10_tcws66.jpg",
+          "title": "Citrus Symphony: Exploring the Zest and Zeal of Sun-Kissed Fruits",
+          "author": "Valencia Ray",
+          "published": "",
+          "titleDescription": "Celebrate the bright, tangy flavors of citrus fruits and their roles in refreshing drinks, vibrant dishes, and health remedies.",
+          "subTitle": "Zest for Life",
+          "subTitleDescription": "Experience the sensory joy of citrus—from the orchard to the kitchen—and its ability to uplift any dish."
+        },
+        {
+          "id": 12,
+          "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg7_bkywcr.jpg",
+          "title": "Banana Republic: Cultural Stories and Culinary Wonders of the Tropics",
+          "author": "Mango Wells",
+          "published": "",
+          "titleDescription": "Uncover the tropical treasures of bananas, plantains, and other exotic fruits that shape island and equatorial cuisines.",
+          "subTitle": "Tropical Treats",
+          "subTitleDescription": "Journey to warm climates where fruit is more than food—it’s culture, economy, and tradition."
+        },
+        {
+          "id": 13,
+          "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+          "title": "Pomegranate Dreams: Mythology and Medicine from Seed to Skin",
+          "author": "Ruby Granate",
+          "published": "",
+          "titleDescription": "Dive into the ancient and modern significance of pomegranates in healing, beauty, and spiritual rituals.",
+          "subTitle": "Seeds of Symbolism",
+          "subTitleDescription": "Learn how this jewel-like fruit embodies fertility, health, and wisdom in various cultures."
+        },
+        {
+          "id": 14,
+          "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg9_sy5jtx.jpg",
+          "title": "Melon Muse: Sweet Slices of Summer and the Art of Refreshment",
+          "author": "Honey D. Loup",
+          "published": "",
+          "titleDescription": "Enjoy the juicy delights of melons and their role in summer feasts, hydration, and culinary creativity.",
+          "subTitle": "Chill and Slice",
+          "subTitleDescription": "Discover the refreshing versatility of melons in dishes, desserts, and drinks around the world."
+        },
+        {
+          "id": 15,
+          "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg5_hsivjl.jpg",
+          "title": "Berry Bliss: From Forest Floors to Fine Dining Tables",
+          "author": "Straw Belle",
+          "published": "",
+          "titleDescription": "Trace the journey of berries from wild foraging to gourmet cuisine, exploring their health benefits and culinary versatility.",
+          "subTitle": "Little Fruits, Big Flavors",
+          "subTitleDescription": "See how berries bring bursts of flavor, color, and nutrition to dishes both simple and sophisticated."
+        },
+        {
+          "id": 16,
+          "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+          "title": "Fruitopia: A Global Expedition into the World’s Juiciest Discoveries",
+          "author": "Jackie Fruitson",
+          "published": "",
+          "titleDescription": "Embark on a global expedition to discover rare and celebrated fruits, their origins, and their place in cultural traditions.",
+          "subTitle": "The World in a Fruit Bowl",
+          "subTitleDescription": "Taste the globe through exotic fruits and the stories of those who grow, harvest, and cherish them."
+        },
+        {
+          "id": 17,
+          "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154679/newsimg1_nhsgsn.jpg",
+          "title": "The Mental Health Surge: Understanding the Global Rise in Anxiety and Depression",
+          "author": "Elena Michaels",
+          "published": "",
+          "titleDescription": "Delve into the complex causes and far-reaching impact of rising mental health issues across societies and age groups.",
+          "subTitle": "Healing Minds, Changing Lives",
+          "subTitleDescription": "Explore interventions, therapies, and community efforts working to support mental well-being worldwide."
+        },
+        {
+          "id": 18,
+          "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg2_glqsd4.jpg",
+          "title": "Vaccines and Variants: How Scientists Are Staying Ahead of Emerging Viruses",
+          "author": "Marcus Lee",
+          "published": "",
+          "titleDescription": "Follow the race between evolving viruses and cutting-edge vaccine research aiming to protect global health.",
+          "subTitle": "Science vs. Outbreaks",
+          "subTitleDescription": "Learn how global collaboration and scientific innovation are essential in combating health crises."
+        },
+        {
+          "id": 19,
+          "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg3_wwojd8.png",
+          "title": "Nutrition Nation: The Impact of Diet Trends on Public Health Outcomes",
+          "author": "Tariq Johnson",
+          "published": "",
+          "titleDescription": "Examine how evolving diets affect public health, from veganism to keto, and their impact on wellbeing and policy.",
+          "subTitle": "What’s on the Plate Matters",
+          "subTitleDescription": "Discover how food trends influence disease prevention, weight management, and lifestyle choices."
+        },
+        {
+          "id": 20,
+          "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg4_tr7bm8.jpg",
+          "title": "Heart Health Matters: New Guidelines Aim to Combat Rising Cardiovascular Risks",
+          "author": "Sophie Chen",
+          "published": "",
+          "titleDescription": "Understand the new medical recommendations for heart health and the lifestyle changes they promote.",
+          "subTitle": "Healthy Heart, Healthy Life",
+          "subTitleDescription": "Explore strategies, diets, and innovations helping people reduce cardiovascular risk and live longer."
+        },
+        {
+          "id": 21,
+          "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg5_jgsnz4.jpg",
+          "title": "Climate and Health: The Overlooked Link in Global Warming Discourse",
+          "author": "Dr. Maria Stein",
+          "published": "",
+          "titleDescription": "Explore the often-neglected relationship between climate change and public health, from rising respiratory issues to disease migration.",
+          "subTitle": "A Planet in Peril, People at Risk",
+          "subTitleDescription": "Understand how environmental changes are creating new health challenges and what can be done to mitigate them."
+        },
+        {
+          "id": 22,
+          "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg6_qz7lvs.jpg",
+          "title": "Digital Detox: The Growing Movement for Screen-Free Wellness",
+          "author": "Liam Foster",
+          "published": "",
+          "titleDescription": "Dive into the rising awareness of digital well-being and how people are reclaiming time, focus, and health by reducing screen time.",
+          "subTitle": "Unplug to Reconnect",
+          "subTitleDescription": "Discover practical tips and inspiring stories of those embracing a more mindful, less tech-saturated lifestyle."
+        },
+        {
+          "id": 23,
+          "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg7_shg7hc.jpg",
+          "title": "AI in Healthcare: Revolutionizing Diagnosis, Treatment, and Patient Care",
+          "author": "Neha Patel",
+          "published": "",
+          "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+          "subTitle": "The Future of Medicine",
+          "subTitleDescription": "Explore ethical considerations, successes, and challenges of integrating AI into everyday medical practices."
+        },
+        {
+          "id": 24,
+          "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg8_ahf64k.jpg",
+          "title": "Mindful Eating: Transforming Your Relationship with Food for Better Health",
+          "author": "Sophia Greene",
+          "published": "",
+          "titleDescription": "Understand how mindfulness practices at mealtimes can improve digestion, mental health, and overall wellness.",
+          "subTitle": "Savor Each Bite",
+          "subTitleDescription": "Discover techniques and benefits of mindful eating, supported by science and personal stories."
+        } 
+  ],
+  "fruitDetail": [
+    {
+      "id": 1,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154661/fruitimg12_votfhw.jpg",
+      "title": "The Orchard Diaries: A Journey Through Nature’s Sweetest Bounty",
+      "author": "Clementine Harper",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 2,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg6_o5q8pd.jpg",
+      "title": "Fruitful Tales: Legends and Recipes from the World’s Vibrant Groves",
+      "author": "Berry Thompson",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 3,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg10_tcws66.jpg",
+      "title": "Citrus Symphony: Exploring the Zest and Zeal of Sun-Kissed Fruits",
+      "author": "Valencia Ray",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 4,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg7_bkywcr.jpg",
+      "title": "Banana Republic: Cultural Stories and Culinary Wonders of the Tropics",
+      "author": "Mango Wells",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 5,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Pomegranate Dreams: Mythology and Medicine from Seed to Skin",
+      "author": "Ruby Granate",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 6,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg9_sy5jtx.jpg",
+      "title": "Melon Muse: Sweet Slices of Summer and the Art of Refreshment",
+      "author": "Honey D. Loup",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 7,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg5_hsivjl.jpg",
+      "title": "Berry Bliss: From Forest Floors to Fine Dining Tables",
+      "author": "Straw Belle",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 8,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Fruitopia: A Global Expedition into the World’s Juiciest Discoveries",
+      "author": "Jackie Fruitson",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    }
+  ],
+  "newsDetail": [
+    {
+      "id": 1,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154679/newsimg1_nhsgsn.jpg",
+      "title": "The Mental Health Surge: Understanding the Global Rise in Anxiety and Depression",
+      "author": "Elena Michaels",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 2,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg2_glqsd4.jpg",
+      "title": "Vaccines and Variants: How Scientists Are Staying Ahead of Emerging Viruses",
+      "author": "Marcus Lee",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 3,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg3_wwojd8.png",
+      "title": "Nutrition Nation: The Impact of Diet Trends on Public Health Outcomes",
+      "author": "Tariq Johnson",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 4,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg4_tr7bm8.jpg",
+      "title": "Heart Health Matters: New Guidelines Aim to Combat Rising Cardiovascular Risks",
+      "author": "Sophie Chen",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 5,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg5_jgsnz4.jpg",
+      "title": "Climate and Health: How a Warming Planet is Influencing Disease Patterns",
+      "author": "David Nkrumah",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 6,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg11_w9pwe2.jpg",
+      "title": "AI in Healthcare: Revolutionizing Diagnostics and Patient Care Delivery",
+      "author": "Priya Desai",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 7,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg12_pzzznz.jpg",
+      "title": "Mental Wellness in the Workplace: Companies Investing in Employee Health",
+      "author": "Carlos Mendoza",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 8,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg13_n4inhu.jpg",
+      "title": "Global Health Innovations: Medical Breakthroughs Transforming Lives in 2025",
+      "author": "Lina Petrova",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    }
+  ],
+  "users": [
+    {
+      "id": "18ac",
+      "author": "Chidinma C",
+      "email": "ugonna@gmail.com",
+      "password": "March13@1990"
+    },
+    {
+      "id": "30b1",
+      "author": "Augustine",
+      "email": "augustine@gmail.com",
+      "password": "Augu@1396"
+    },
+    {
+      "id": "e03a",
+      "author": "Ego",
+      "email": "ego@gmail.com",
+      "password": "Ego13@1996"
+    },
+    {
+      "id": "9b70",
+      "author": "NMA",
+      "email": "nma@gmail.com",
+      "password": "nma@131990"
+    },
+    {
+      "id": "6d91",
+      "author": "Nma Augustine",
+      "email": "nma@gmail.com",
+      "password": "March13@1990"
+    },
+    {
+      "id": "7f5e",
+      "author": "Chioma Ugonna",
+      "email": "chioma@gmail.com",
+      "password": "C123@1234"
+    }
+  ]
+}
+
+edit 2
+
+{
+  "all": [
+    {
+      "id": 1,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg2_ibaac1.webp",
+      "title": "The Bread and Butter Chronicles: A Journey Through Everyday Culinary Magic",
+      "author": "Alice Waters",
+      "published": ""
+    },
+    {
+      "id": 2,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg4_kwm0e2.jpg",
+      "title": "Culinary Canvas: Exploring Artistry in Modern Cuisine Around the World",
+      "author": "Gordon Ramsay",
+      "published": ""
+    },
+    {
+      "id": 3,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg1_jj9h2t.jpg",
+      "title": "Savor the Flavor: A Celebration of Global Dishes and Timeless Recipes",
+      "author": "Julia Child",
+      "published": ""
+    },
+    {
+      "id": 4,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg5_f5ivbz.jpg",
+      "title": "Gastronomy Tales: Inside the Kitchens of the World's Greatest Chefs",
+      "author": "Massimo Bottura",
+      "published": ""
+    },
+    {
+      "id": 5,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg6_ldvqpv.jpg",
+      "title": "Spice Route Diaries: Discovering the Hidden Stories Behind Every Dish",
+      "author": "Padma Lakshmi",
+      "published": ""
+    },
+    {
+      "id": 6,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154627/foodimg3_tuzhxo.jpg",
+      "title": "Forks and Fables: The Cultural Narratives That Shape What We Eat",
+      "author": "Anthony Bourdain",
+      "published": ""
+    },
+    {
+      "id": 7,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+      "title": "The Flavor Alchemist: Unlocking the Secrets of Molecular Gastronomy",
+      "author": "Heston Blumenthal",
+      "published": ""
+    },
+    {
+      "id": 8,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729878914/Frame_10124_cgpsxw.png",
+      "title": "Edible Adventures: Culinary Journeys Through Uncharted Territories",
+      "author": "Nigella Lawson",
+      "published": ""
+    },
+    {
+      "id": 9,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154661/fruitimg12_votfhw.jpg",
+      "title": "The Orchard Diaries: A Journey Through Nature’s Sweetest Bounty",
+      "author": "Clementine Harper",
+      "published": ""
+    },
+    {
+      "id": 10,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg6_o5q8pd.jpg",
+      "title": "Fruitful Tales: Legends and Recipes from the World’s Vibrant Groves",
+      "author": "Berry Thompson",
+      "published": ""
+    },
+    {
+      "id": 11,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg10_tcws66.jpg",
+      "title": "Citrus Symphony: Exploring the Zest and Zeal of Sun-Kissed Fruits",
+      "author": "Valencia Ray",
+      "published": ""
+    },
+    {
+      "id": 12,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg7_bkywcr.jpg",
+      "title": "Banana Republic: Cultural Stories and Culinary Wonders of the Tropics",
+      "author": "Mango Wells",
+      "published": ""
+    },
+    {
+      "id": 13,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Pomegranate Dreams: Mythology and Medicine from Seed to Skin",
+      "author": "Ruby Granate",
+      "published": ""
+    },
+    {
+      "id": 14,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg9_sy5jtx.jpg",
+      "title": "Melon Muse: Sweet Slices of Summer and the Art of Refreshment",
+      "author": "Honey D. Loup",
+      "published": ""
+    },
+    {
+      "id": 15,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg5_hsivjl.jpg",
+      "title": "Berry Bliss: From Forest Floors to Fine Dining Tables",
+      "author": "Straw Belle",
+      "published": ""
+    },
+    {
+      "id": 16,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Fruitopia: A Global Expedition into the World’s Juiciest Discoveries",
+      "author": "Jackie Fruitson",
+      "published": ""
+    },
+    {
+      "id": 17,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154679/newsimg1_nhsgsn.jpg",
+      "title": "The Mental Health Surge: Understanding the Global Rise in Anxiety and Depression",
+      "author": "Elena Michaels",
+      "published": ""
+    },
+    {
+      "id": 18,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg2_glqsd4.jpg",
+      "title": "Vaccines and Variants: How Scientists Are Staying Ahead of Emerging Viruses",
+      "author": "Marcus Lee",
+      "published": ""
+    },
+    {
+      "id": 19,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg3_wwojd8.png",
+      "title": "Nutrition Nation: The Impact of Diet Trends on Public Health Outcomes",
+      "author": "Tariq Johnson",
+      "published": ""
+    },
+    {
+      "id": 20,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg4_tr7bm8.jpg",
+      "title": "Heart Health Matters: New Guidelines Aim to Combat Rising Cardiovascular Risks",
+      "author": "Sophie Chen",
+      "published": ""
+    },
+    {
+      "id": 21,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg5_jgsnz4.jpg",
+      "title": "Climate and Health: How a Warming Planet is Influencing Disease Patterns",
+      "author": "David Nkrumah",
+      "published": ""
+    },
+    {
+      "id": 22,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg11_w9pwe2.jpg",
+      "title": "AI in Healthcare: Revolutionizing Diagnostics and Patient Care Delivery",
+      "author": "Priya Desai",
+      "published": ""
+    },
+    {
+      "id": 23,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg12_pzzznz.jpg",
+      "title": "Mental Wellness in the Workplace: Companies Investing in Employee Health",
+      "author": "Carlos Mendoza",
+      "published": ""
+    },
+    {
+      "id": 24,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg13_n4inhu.jpg",
+      "title": "Global Health Innovations: Medical Breakthroughs Transforming Lives in 2025",
+      "author": "Lina Petrova",
+      "published": ""
+    }
+  ],
+  "food": [
+    {
+      "id": 1,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg2_ibaac1.webp",
+      "title": "The Bread and Butter Chronicles: A Journey Through Everyday Culinary Magic",
+      "author": "Alice Waters",
+      "published": ""
+    },
+    {
+      "id": 2,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg4_kwm0e2.jpg",
+      "title": "Culinary Canvas: Exploring Artistry in Modern Cuisine Around the World",
+      "author": "Gordon Ramsay",
+      "published": ""
+    },
+    {
+      "id": 3,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg1_jj9h2t.jpg",
+      "title": "Savor the Flavor: A Celebration of Global Dishes and Timeless Recipes",
+      "author": "Julia Child",
+      "published": ""
+    },
+    {
+      "id": 4,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg5_f5ivbz.jpg",
+      "title": "Gastronomy Tales: Inside the Kitchens of the World's Greatest Chefs",
+      "author": "Massimo Bottura",
+      "published": ""
+    },
+    {
+      "id": 5,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg6_ldvqpv.jpg",
+      "title": "Spice Route Diaries: Discovering the Hidden Stories Behind Every Dish",
+      "author": "Padma Lakshmi",
+      "published": ""
+    },
+    {
+      "id": 6,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154627/foodimg3_tuzhxo.jpg",
+      "title": "Forks and Fables: The Cultural Narratives That Shape What We Eat",
+      "author": "Anthony Bourdain",
+      "published": ""
+    },
+    {
+      "id": 7,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+      "title": "The Flavor Alchemist: Unlocking the Secrets of Molecular Gastronomy",
+      "author": "Heston Blumenthal",
+      "published": ""
+    },
+    {
+      "id": 8,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729878914/Frame_10124_cgpsxw.png",
+      "title": "Edible Adventures: Culinary Journeys Through Uncharted Territories",
+      "author": "Nigella Lawson",
+      "published": ""
+    }
+  ],
+  "fruit": [
+    {
+      "id": 1,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154661/fruitimg12_votfhw.jpg",
+      "title": "The Orchard Diaries: A Journey Through Nature’s Sweetest Bounty",
+      "author": "Clementine Harper",
+      "published": ""
+    },
+    {
+      "id": 2,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg6_o5q8pd.jpg",
+      "title": "Fruitful Tales: Legends and Recipes from the World’s Vibrant Groves",
+      "author": "Berry Thompson",
+      "published": ""
+    },
+    {
+      "id": 3,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg10_tcws66.jpg",
+      "title": "Citrus Symphony: Exploring the Zest and Zeal of Sun-Kissed Fruits",
+      "author": "Valencia Ray",
+      "published": ""
+    },
+    {
+      "id": 4,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg7_bkywcr.jpg",
+      "title": "Banana Republic: Cultural Stories and Culinary Wonders of the Tropics",
+      "author": "Mango Wells",
+      "published": ""
+    },
+    {
+      "id": 5,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Pomegranate Dreams: Mythology and Medicine from Seed to Skin",
+      "author": "Ruby Granate",
+      "published": ""
+    },
+    {
+      "id": 6,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg9_sy5jtx.jpg",
+      "title": "Melon Muse: Sweet Slices of Summer and the Art of Refreshment",
+      "author": "Honey D. Loup",
+      "published": ""
+    },
+    {
+      "id": 7,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg5_hsivjl.jpg",
+      "title": "Berry Bliss: From Forest Floors to Fine Dining Tables",
+      "author": "Straw Belle",
+      "published": ""
+    },
+    {
+      "id": 8,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Fruitopia: A Global Expedition into the World’s Juiciest Discoveries",
+      "author": "Jackie Fruitson",
+      "published": ""
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154679/newsimg1_nhsgsn.jpg",
+      "title": "The Mental Health Surge: Understanding the Global Rise in Anxiety and Depression",
+      "author": "Elena Michaels",
+      "published": ""
+    },
+    {
+      "id": 2,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg2_glqsd4.jpg",
+      "title": "Vaccines and Variants: How Scientists Are Staying Ahead of Emerging Viruses",
+      "author": "Marcus Lee",
+      "published": ""
+    },
+    {
+      "id": 3,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg3_wwojd8.png",
+      "title": "Nutrition Nation: The Impact of Diet Trends on Public Health Outcomes",
+      "author": "Tariq Johnson",
+      "published": ""
+    },
+    {
+      "id": 4,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg4_tr7bm8.jpg",
+      "title": "Heart Health Matters: New Guidelines Aim to Combat Rising Cardiovascular Risks",
+      "author": "Sophie Chen",
+      "published": ""
+    },
+    {
+      "id": 5,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg5_jgsnz4.jpg",
+      "title": "Climate and Health: How a Warming Planet is Influencing Disease Patterns",
+      "author": "David Nkrumah",
+      "published": ""
+    },
+    {
+      "id": 6,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg11_w9pwe2.jpg",
+      "title": "AI in Healthcare: Revolutionizing Diagnostics and Patient Care Delivery",
+      "author": "Priya Desai",
+      "published": ""
+    },
+    {
+      "id": 7,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg12_pzzznz.jpg",
+      "title": "Mental Wellness in the Workplace: Companies Investing in Employee Health",
+      "author": "Carlos Mendoza",
+      "published": ""
+    },
+    {
+      "id": 8,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg13_n4inhu.jpg",
+      "title": "Global Health Innovations: Medical Breakthroughs Transforming Lives in 2025",
+      "author": "Lina Petrova",
+      "published": ""
+    }
+  ],
+  "foodDetail": [
+    {
+      "id": 1,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg2_ibaac1.webp",
+      "title": "The Bread and Butter Chronicles: A Journey Through Everyday Culinary Magic",
+      "titleDescription": "Explore the simple yet profound impact of everyday meals through the eyes of passionate chefs and home cooks alike. From warm loaves of bread to perfectly buttered toast, this story reveals how comfort food connects cultures, memories, and generations.",
+      "subTitle": "Rediscovering Simplicity in the Kitchen",
+      "subTileDescription": "Join us on a heartfelt journey celebrating the unsung heroes of our kitchens — bread and butter — and the remarkable stories they tell.",
+      "author": "Alice Waters",
+      "published": "2025-03-15"
+    },
+    {
+      "id": 2,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg4_kwm0e2.jpg",
+      "title": "Culinary Canvas: Exploring Artistry in Modern Cuisine Around the World",
+      "titleDescription": "Dive into the intersection of food and art as chefs turn plates into masterpieces using bold flavors, colors, and textures from diverse cultures.",
+      "subTitle": "When Cooking Becomes an Art Form",
+      "subTileDescription": "Discover how culinary artists from around the globe redefine creativity in the kitchen through innovation and tradition.",
+      "author": "Gordon Ramsay",
+      "published": "2025-03-14"
+    },
+    {
+      "id": 3,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg1_jj9h2t.jpg",
+      "title": "Savor the Flavor: A Celebration of Global Dishes and Timeless Recipes",
+      "titleDescription": "A delicious journey through iconic recipes and the cultures that shaped them, highlighting timeless flavors loved across generations.",
+      "subTitle": "Tastes That Transcend Borders",
+      "subTileDescription": "Uncover the stories and secrets behind dishes that have become beloved staples worldwide.",
+      "author": "Julia Child",
+      "published": "2025-03-13"
+    },
+    {
+      "id": 4,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg5_f5ivbz.jpg",
+      "title": "Gastronomy Tales: Inside the Kitchens of the World's Greatest Chefs",
+      "titleDescription": "Go behind the scenes in the kitchens of culinary legends as they craft dishes with passion, precision, and a dash of storytelling.",
+      "subTitle": "A Look at Legends at Work",
+      "subTileDescription": "Step into the lives of chefs who shape the culinary world, one plate at a time.",
+      "author": "Massimo Bottura",
+      "published": "2025-03-12"
+    },
+    {
+      "id": 5,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg6_ldvqpv.jpg",
+      "title": "Spice Route Diaries: Discovering the Hidden Stories Behind Every Dish",
+      "titleDescription": "Trace the origins and significance of spices that revolutionized cuisines, economies, and cultures across continents.",
+      "subTitle": "Flavors with a Story",
+      "subTileDescription": "Experience the rich history of spice trade and its influence on modern cooking.",
+      "author": "Padma Lakshmi",
+      "published": "2025-03-11"
+    },
+    {
+      "id": 6,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154627/foodimg3_tuzhxo.jpg",
+      "title": "Forks and Fables: The Cultural Narratives That Shape What We Eat",
+      "titleDescription": "Uncover how folklore, history, and storytelling are deeply embedded in the dishes we love, forming a tapestry of taste and tradition.",
+      "subTitle": "Food as a Cultural Narrative",
+      "subTileDescription": "Dive into the myths and meanings behind the meals on our tables.",
+      "author": "Anthony Bourdain",
+      "published": "2025-03-10"
+    },
+    {
+      "id": 7,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+      "title": "The Flavor Alchemist: Unlocking the Secrets of Molecular Gastronomy",
+      "titleDescription": "Explore the scientific revolution in cuisine where flavor, chemistry, and imagination collide to create futuristic dishes.",
+      "subTitle": "Where Science Meets Flavor",
+      "subTileDescription": "Join the pioneers of molecular gastronomy as they transform dining into a sensory experiment.",
+      "author": "Heston Blumenthal",
+      "published": "2025-03-09"
+    },
+    {
+      "id": 8,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729878914/Frame_10124_cgpsxw.png",
+      "title": "Edible Adventures: Culinary Journeys Through Uncharted Territories",
+      "titleDescription": "Embark on wild food expeditions to discover rare ingredients, unique dishes, and the stories of people who dare to eat differently.",
+      "subTitle": "Pushing Boundaries with Every Bite",
+      "subTileDescription": "Travel to the edges of culinary innovation with those who find flavor where others don’t dare look.",
+      "author": "Nigella Lawson",
+      "published": "2025-03-08"
+    }
+  ],
+  "allDetail": [
+    {
+      "id": 1,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg2_ibaac1.webp",
+      "title": "The Bread and Butter Chronicles: A Journey Through Everyday Culinary Magic",
+      "author": "Alice Waters",
+      "published": "",
+      "titleDescription": "Step into a world where simple ingredients create extraordinary stories. Explore how daily culinary routines weave rich narratives of comfort, culture, and creativity.",
+      "subTitle": "Simplicity in Every Slice",
+      "subTitleDescription": "Discover how humble bread and butter become the foundation for culinary traditions that bring families and communities together."
+    },
+    {
+      "id": 2,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg4_kwm0e2.jpg",
+      "title": "Culinary Canvas: Exploring Artistry in Modern Cuisine Around the World",
+      "author": "Gordon Ramsay",
+      "published": "",
+      "titleDescription": "Embark on a journey through the vibrant world of contemporary cuisine, where chefs blend innovation and tradition to create edible masterpieces.",
+      "subTitle": "Plates as Paintings",
+      "subTitleDescription": "Witness how modern gastronomy transforms meals into art, with every dish a bold statement of culture, creativity, and craftsmanship."
+    },
+    {
+      "id": 3,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg1_jj9h2t.jpg",
+      "title": "Savor the Flavor: A Celebration of Global Dishes and Timeless Recipes",
+      "author": "Julia Child",
+      "published": "",
+      "titleDescription": "Taste the history and heart behind dishes passed down through generations. Each recipe tells a story of heritage, memory, and culinary passion.",
+      "subTitle": "Flavors That Unite",
+      "subTitleDescription": "Explore how diverse cuisines connect cultures, bringing people together over shared meals and cherished flavors."
+    },
+    {
+      "id": 4,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg5_f5ivbz.jpg",
+      "title": "Gastronomy Tales: Inside the Kitchens of the World's Greatest Chefs",
+      "author": "Massimo Bottura",
+      "published": "",
+      "titleDescription": "Peek behind the scenes into the lives and kitchens of culinary legends. Learn how passion, discipline, and creativity converge in the world’s top restaurants.",
+      "subTitle": "Masters of the Meal",
+      "subTitleDescription": "Discover the journeys, philosophies, and innovations that have shaped the world’s most celebrated culinary minds."
+    },
+    {
+      "id": 5,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg6_ldvqpv.jpg",
+      "title": "Spice Route Diaries: Discovering the Hidden Stories Behind Every Dish",
+      "author": "Padma Lakshmi",
+      "published": "",
+      "titleDescription": "Travel along the ancient spice routes and uncover the rich histories that spices bring to global cuisines. Every spice tells a tale of trade, tradition, and transformation.",
+      "subTitle": "Flavors of the Past",
+      "subTitleDescription": "Explore how spices shaped civilizations and continue to add depth, warmth, and identity to modern dishes."
+    },
+    {
+      "id": 6,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154627/foodimg3_tuzhxo.jpg",
+      "title": "Forks and Fables: The Cultural Narratives That Shape What We Eat",
+      "author": "Anthony Bourdain",
+      "published": "",
+      "titleDescription": "Delve into the myths, traditions, and social customs behind the foods we enjoy. See how every dish is steeped in cultural significance and personal stories.",
+      "subTitle": "Edible Narratives",
+      "subTitleDescription": "From ancient feasts to modern dining, learn how food reflects identity, values, and the human experience."
+    },
+    {
+      "id": 7,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+      "title": "The Flavor Alchemist: Unlocking the Secrets of Molecular Gastronomy",
+      "author": "Heston Blumenthal",
+      "published": "",
+      "titleDescription": "Enter the cutting-edge world of molecular gastronomy where science meets flavor. Explore how chefs manipulate textures, temperatures, and tastes to create culinary wonders.",
+      "subTitle": "Science on the Plate",
+      "subTitleDescription": "Uncover the innovations behind foam, gel, and spherification that are revolutionizing modern cuisine."
+    },
+    {
+      "id": 8,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729878914/Frame_10124_cgpsxw.png",
+      "title": "Edible Adventures: Culinary Journeys Through Uncharted Territories",
+      "author": "Nigella Lawson",
+      "published": "",
+      "titleDescription": "Embark on gastronomic adventures through remote and exotic regions, discovering unique ingredients and cooking techniques.",
+      "subTitle": "Flavors Off the Beaten Path",
+      "subTitleDescription": "From mountain villages to coastal markets, experience the tastes and stories that few have encountered."
+    },
+    {
+      "id": 9,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154661/fruitimg12_votfhw.jpg",
+      "title": "The Orchard Diaries: A Journey Through Nature’s Sweetest Bounty",
+      "author": "Clementine Harper",
+      "published": "",
+      "titleDescription": "Follow the seasons through the eyes of an orchardist, celebrating the cycles of growth, harvest, and the joys of fruit farming.",
+      "subTitle": "From Blossom to Basket",
+      "subTitleDescription": "Delight in the care, patience, and natural beauty that bring fresh fruits to our tables."
+    },
+    {
+      "id": 10,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg6_o5q8pd.jpg",
+      "title": "Fruitful Tales: Legends and Recipes from the World’s Vibrant Groves",
+      "author": "Berry Thompson",
+      "published": "",
+      "titleDescription": "Explore the lore, legends, and culinary uses of fruits across cultures, revealing how they’ve inspired everything from myths to medicines.",
+      "subTitle": "Fruit in Folklore",
+      "subTitleDescription": "Unearth stories and dishes that highlight the symbolic and nourishing power of fruits through time."
+    },
+    {
+      "id": 11,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg10_tcws66.jpg",
+      "title": "Citrus Symphony: Exploring the Zest and Zeal of Sun-Kissed Fruits",
+      "author": "Valencia Ray",
+      "published": "",
+      "titleDescription": "Celebrate the bright, tangy flavors of citrus fruits and their roles in refreshing drinks, vibrant dishes, and health remedies.",
+      "subTitle": "Zest for Life",
+      "subTitleDescription": "Experience the sensory joy of citrus—from the orchard to the kitchen—and its ability to uplift any dish."
+    },
+    {
+      "id": 12,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg7_bkywcr.jpg",
+      "title": "Banana Republic: Cultural Stories and Culinary Wonders of the Tropics",
+      "author": "Mango Wells",
+      "published": "",
+      "titleDescription": "Uncover the tropical treasures of bananas, plantains, and other exotic fruits that shape island and equatorial cuisines.",
+      "subTitle": "Tropical Treats",
+      "subTitleDescription": "Journey to warm climates where fruit is more than food—it’s culture, economy, and tradition."
+    },
+    {
+      "id": 13,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Pomegranate Dreams: Mythology and Medicine from Seed to Skin",
+      "author": "Ruby Granate",
+      "published": "",
+      "titleDescription": "Dive into the ancient and modern significance of pomegranates in healing, beauty, and spiritual rituals.",
+      "subTitle": "Seeds of Symbolism",
+      "subTitleDescription": "Learn how this jewel-like fruit embodies fertility, health, and wisdom in various cultures."
+    },
+    {
+      "id": 14,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg9_sy5jtx.jpg",
+      "title": "Melon Muse: Sweet Slices of Summer and the Art of Refreshment",
+      "author": "Honey D. Loup",
+      "published": "",
+      "titleDescription": "Enjoy the juicy delights of melons and their role in summer feasts, hydration, and culinary creativity.",
+      "subTitle": "Chill and Slice",
+      "subTitleDescription": "Discover the refreshing versatility of melons in dishes, desserts, and drinks around the world."
+    },
+    {
+      "id": 15,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg5_hsivjl.jpg",
+      "title": "Berry Bliss: From Forest Floors to Fine Dining Tables",
+      "author": "Straw Belle",
+      "published": "",
+      "titleDescription": "Trace the journey of berries from wild foraging to gourmet cuisine, exploring their health benefits and culinary versatility.",
+      "subTitle": "Little Fruits, Big Flavors",
+      "subTitleDescription": "See how berries bring bursts of flavor, color, and nutrition to dishes both simple and sophisticated."
+    },
+    {
+      "id": 16,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Fruitopia: A Global Expedition into the World’s Juiciest Discoveries",
+      "author": "Jackie Fruitson",
+      "published": "",
+      "titleDescription": "Embark on a global expedition to discover rare and celebrated fruits, their origins, and their place in cultural traditions.",
+      "subTitle": "The World in a Fruit Bowl",
+      "subTitleDescription": "Taste the globe through exotic fruits and the stories of those who grow, harvest, and cherish them."
+    },
+    {
+      "id": 17,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154679/newsimg1_nhsgsn.jpg",
+      "title": "The Mental Health Surge: Understanding the Global Rise in Anxiety and Depression",
+      "author": "Elena Michaels",
+      "published": "",
+      "titleDescription": "Delve into the complex causes and far-reaching impact of rising mental health issues across societies and age groups.",
+      "subTitle": "Healing Minds, Changing Lives",
+      "subTitleDescription": "Explore interventions, therapies, and community efforts working to support mental well-being worldwide."
+    },
+    {
+      "id": 18,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg2_glqsd4.jpg",
+      "title": "Vaccines and Variants: How Scientists Are Staying Ahead of Emerging Viruses",
+      "author": "Marcus Lee",
+      "published": "",
+      "titleDescription": "Follow the race between evolving viruses and cutting-edge vaccine research aiming to protect global health.",
+      "subTitle": "Science vs. Outbreaks",
+      "subTitleDescription": "Learn how global collaboration and scientific innovation are essential in combating health crises."
+    },
+    {
+      "id": 19,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg3_wwojd8.png",
+      "title": "Nutrition Nation: The Impact of Diet Trends on Public Health Outcomes",
+      "author": "Tariq Johnson",
+      "published": "",
+      "titleDescription": "Examine how evolving diets affect public health, from veganism to keto, and their impact on wellbeing and policy.",
+      "subTitle": "What’s on the Plate Matters",
+      "subTitleDescription": "Discover how food trends influence disease prevention, weight management, and lifestyle choices."
+    },
+    {
+      "id": 20,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg4_tr7bm8.jpg",
+      "title": "Heart Health Matters: New Guidelines Aim to Combat Rising Cardiovascular Risks",
+      "author": "Sophie Chen",
+      "published": "",
+      "titleDescription": "Understand the new medical recommendations for heart health and the lifestyle changes they promote.",
+      "subTitle": "Healthy Heart, Healthy Life",
+      "subTitleDescription": "Explore strategies, diets, and innovations helping people reduce cardiovascular risk and live longer."
+    },
+    {
+      "id": 21,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg5_jgsnz4.jpg",
+      "title": "Climate and Health: The Overlooked Link in Global Warming Discourse",
+      "author": "Dr. Maria Stein",
+      "published": "",
+      "titleDescription": "Explore the often-neglected relationship between climate change and public health, from rising respiratory issues to disease migration.",
+      "subTitle": "A Planet in Peril, People at Risk",
+      "subTitleDescription": "Understand how environmental changes are creating new health challenges and what can be done to mitigate them."
+    },
+    {
+      "id": 22,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg6_qz7lvs.jpg",
+      "title": "Digital Detox: The Growing Movement for Screen-Free Wellness",
+      "author": "Liam Foster",
+      "published": "",
+      "titleDescription": "Dive into the rising awareness of digital well-being and how people are reclaiming time, focus, and health by reducing screen time.",
+      "subTitle": "Unplug to Reconnect",
+      "subTitleDescription": "Discover practical tips and inspiring stories of those embracing a more mindful, less tech-saturated lifestyle."
+    },
+    {
+      "id": 23,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg7_shg7hc.jpg",
+      "title": "AI in Healthcare: Revolutionizing Diagnosis, Treatment, and Patient Care",
+      "author": "Neha Patel",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges of integrating AI into everyday medical practices."
+    },
+    {
+      "id": 24,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg8_ahf64k.jpg",
+      "title": "Mindful Eating: Transforming Your Relationship with Food for Better Health",
+      "author": "Sophia Greene",
+      "published": "",
+      "titleDescription": "Understand how mindfulness practices at mealtimes can improve digestion, mental health, and overall wellness.",
+      "subTitle": "Savor Each Bite",
+      "subTitleDescription": "Discover techniques and benefits of mindful eating, supported by science and personal stories."
+    }
+  ],
+  "fruitDetail": [
+    {
+      "id": 1,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154661/fruitimg12_votfhw.jpg",
+      "title": "The Orchard Diaries: A Journey Through Nature’s Sweetest Bounty",
+      "author": "Clementine Harper",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 2,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg6_o5q8pd.jpg",
+      "title": "Fruitful Tales: Legends and Recipes from the World’s Vibrant Groves",
+      "author": "Berry Thompson",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 3,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg10_tcws66.jpg",
+      "title": "Citrus Symphony: Exploring the Zest and Zeal of Sun-Kissed Fruits",
+      "author": "Valencia Ray",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 4,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg7_bkywcr.jpg",
+      "title": "Banana Republic: Cultural Stories and Culinary Wonders of the Tropics",
+      "author": "Mango Wells",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 5,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Pomegranate Dreams: Mythology and Medicine from Seed to Skin",
+      "author": "Ruby Granate",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 6,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg9_sy5jtx.jpg",
+      "title": "Melon Muse: Sweet Slices of Summer and the Art of Refreshment",
+      "author": "Honey D. Loup",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 7,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg5_hsivjl.jpg",
+      "title": "Berry Bliss: From Forest Floors to Fine Dining Tables",
+      "author": "Straw Belle",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 8,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Fruitopia: A Global Expedition into the World’s Juiciest Discoveries",
+      "author": "Jackie Fruitson",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    }
+  ],
+  "newsDetail": [
+    {
+      "id": 1,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154679/newsimg1_nhsgsn.jpg",
+      "title": "The Mental Health Surge: Understanding the Global Rise in Anxiety and Depression",
+      "author": "Elena Michaels",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 2,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg2_glqsd4.jpg",
+      "title": "Vaccines and Variants: How Scientists Are Staying Ahead of Emerging Viruses",
+      "author": "Marcus Lee",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 3,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg3_wwojd8.png",
+      "title": "Nutrition Nation: The Impact of Diet Trends on Public Health Outcomes",
+      "author": "Tariq Johnson",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 4,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg4_tr7bm8.jpg",
+      "title": "Heart Health Matters: New Guidelines Aim to Combat Rising Cardiovascular Risks",
+      "author": "Sophie Chen",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 5,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg5_jgsnz4.jpg",
+      "title": "Climate and Health: How a Warming Planet is Influencing Disease Patterns",
+      "author": "David Nkrumah",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 6,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg11_w9pwe2.jpg",
+      "title": "AI in Healthcare: Revolutionizing Diagnostics and Patient Care Delivery",
+      "author": "Priya Desai",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 7,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg12_pzzznz.jpg",
+      "title": "Mental Wellness in the Workplace: Companies Investing in Employee Health",
+      "author": "Carlos Mendoza",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": 8,
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg13_n4inhu.jpg",
+      "title": "Global Health Innovations: Medical Breakthroughs Transforming Lives in 2025",
+      "author": "Lina Petrova",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    }
+  ],
+  "users": [
+    {
+      "id": "18ac",
+      "author": "Chidinma C",
+      "email": "ugonna@gmail.com",
+      "password": "March13@1990"
+    },
+    {
+      "id": "30b1",
+      "author": "Augustine",
+      "email": "augustine@gmail.com",
+      "password": "Augu@1396"
+    },
+    {
+      "id": "e03a",
+      "author": "Ego",
+      "email": "ego@gmail.com",
+      "password": "Ego13@1996"
+    },
+    {
+      "id": "9b70",
+      "author": "NMA",
+      "email": "nma@gmail.com",
+      "password": "nma@131990"
+    },
+    {
+      "id": "6d91",
+      "author": "Nma Augustine",
+      "email": "nma@gmail.com",
+      "password": "March13@1990"
+    },
+    {
+      "id": "7f5e",
+      "author": "Chioma Ugonna",
+      "email": "chioma@gmail.com",
+      "password": "C123@1234"
+    },
+    {
+      "id": "ea64",
+      "author": "Onaraku Augustine",
+      "email": "augustine92@gmail.com",
+      "password": "Augu123@0"
+    }
+  ]
+}
+
+edit 3
+  "all": [
+    {
+      "id": "1",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg2_ibaac1.webp",
+      "title": "The Bread and Butter Chronicles: A Journey Through Everyday Culinary Magic",
+      "author": "Alice Waters",
+      "published": ""
+    },
+    {
+      "id": "2",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg4_kwm0e2.jpg",
+      "title": "Culinary Canvas: Exploring Artistry in Modern Cuisine Around the World",
+      "author": "Gordon Ramsay",
+      "published": ""
+    },
+    {
+      "id": "3",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg1_jj9h2t.jpg",
+      "title": "Savor the Flavor: A Celebration of Global Dishes and Timeless Recipes",
+      "author": "Julia Child",
+      "published": ""
+    },
+    {
+      "id": "4",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg5_f5ivbz.jpg",
+      "title": "Gastronomy Tales: Inside the Kitchens of the World's Greatest Chefs",
+      "author": "Massimo Bottura",
+      "published": ""
+    },
+    {
+      "id": "5",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg6_ldvqpv.jpg",
+      "title": "Spice Route Diaries: Discovering the Hidden Stories Behind Every Dish",
+      "author": "Padma Lakshmi",
+      "published": ""
+    },
+    {
+      "id": "6",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154627/foodimg3_tuzhxo.jpg",
+      "title": "Forks and Fables: The Cultural Narratives That Shape What We Eat",
+      "author": "Anthony Bourdain",
+      "published": ""
+    },
+    {
+      "id": "7",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+      "title": "The Flavor Alchemist: Unlocking the Secrets of Molecular Gastronomy",
+      "author": "Heston Blumenthal",
+      "published": ""
+    },
+    {
+      "id": "8",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729878914/Frame_10124_cgpsxw.png",
+      "title": "Edible Adventures: Culinary Journeys Through Uncharted Territories",
+      "author": "Nigella Lawson",
+      "published": ""
+    },
+    {
+      "id": "9",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154661/fruitimg12_votfhw.jpg",
+      "title": "The Orchard Diaries: A Journey Through Nature’s Sweetest Bounty",
+      "author": "Clementine Harper",
+      "published": ""
+    },
+    {
+      "id": "10",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg6_o5q8pd.jpg",
+      "title": "Fruitful Tales: Legends and Recipes from the World’s Vibrant Groves",
+      "author": "Berry Thompson",
+      "published": ""
+    },
+    {
+      "id": "11",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg10_tcws66.jpg",
+      "title": "Citrus Symphony: Exploring the Zest and Zeal of Sun-Kissed Fruits",
+      "author": "Valencia Ray",
+      "published": ""
+    },
+    {
+      "id": "12",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg7_bkywcr.jpg",
+      "title": "Banana Republic: Cultural Stories and Culinary Wonders of the Tropics",
+      "author": "Mango Wells",
+      "published": ""
+    },
+    {
+      "id": "13",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Pomegranate Dreams: Mythology and Medicine from Seed to Skin",
+      "author": "Ruby Granate",
+      "published": ""
+    },
+    {
+      "id": "14",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg9_sy5jtx.jpg",
+      "title": "Melon Muse: Sweet Slices of Summer and the Art of Refreshment",
+      "author": "Honey D. Loup",
+      "published": ""
+    },
+    {
+      "id": "15",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg5_hsivjl.jpg",
+      "title": "Berry Bliss: From Forest Floors to Fine Dining Tables",
+      "author": "Straw Belle",
+      "published": ""
+    },
+    {
+      "id": "16",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Fruitopia: A Global Expedition into the World’s Juiciest Discoveries",
+      "author": "Jackie Fruitson",
+      "published": ""
+    },
+    {
+      "id": "17",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154679/newsimg1_nhsgsn.jpg",
+      "title": "The Mental Health Surge: Understanding the Global Rise in Anxiety and Depression",
+      "author": "Elena Michaels",
+      "published": ""
+    },
+    {
+      "id": "18",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg2_glqsd4.jpg",
+      "title": "Vaccines and Variants: How Scientists Are Staying Ahead of Emerging Viruses",
+      "author": "Marcus Lee",
+      "published": ""
+    },
+    {
+      "id": "19",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg3_wwojd8.png",
+      "title": "Nutrition Nation: The Impact of Diet Trends on Public Health Outcomes",
+      "author": "Tariq Johnson",
+      "published": ""
+    },
+    {
+      "id": "20",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg4_tr7bm8.jpg",
+      "title": "Heart Health Matters: New Guidelines Aim to Combat Rising Cardiovascular Risks",
+      "author": "Sophie Chen",
+      "published": ""
+    },
+    {
+      "id": "21",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg5_jgsnz4.jpg",
+      "title": "Climate and Health: How a Warming Planet is Influencing Disease Patterns",
+      "author": "David Nkrumah",
+      "published": ""
+    },
+    {
+      "id": "22",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg11_w9pwe2.jpg",
+      "title": "AI in Healthcare: Revolutionizing Diagnostics and Patient Care Delivery",
+      "author": "Priya Desai",
+      "published": ""
+    },
+    {
+      "id": "23",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg12_pzzznz.jpg",
+      "title": "Mental Wellness in the Workplace: Companies Investing in Employee Health",
+      "author": "Carlos Mendoza",
+      "published": ""
+    },
+    {
+      "id": "24",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg13_n4inhu.jpg",
+      "title": "Global Health Innovations: Medical Breakthroughs Transforming Lives in 2025",
+      "author": "Lina Petrova",
+      "published": ""
+    }
+  ],
+  "food": [
+    {
+      "id": "1",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg2_ibaac1.webp",
+      "title": "The Bread and Butter Chronicles: A Journey Through Everyday Culinary Magic",
+      "author": "Alice Waters",
+      "published": ""
+    },
+    {
+      "id": "2",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg4_kwm0e2.jpg",
+      "title": "Culinary Canvas: Exploring Artistry in Modern Cuisine Around the World",
+      "author": "Gordon Ramsay",
+      "published": ""
+    },
+    {
+      "id": "3",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg1_jj9h2t.jpg",
+      "title": "Savor the Flavor: A Celebration of Global Dishes and Timeless Recipes",
+      "author": "Julia Child",
+      "published": ""
+    },
+    {
+      "id": "4",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg5_f5ivbz.jpg",
+      "title": "Gastronomy Tales: Inside the Kitchens of the World's Greatest Chefs",
+      "author": "Massimo Bottura",
+      "published": ""
+    },
+    {
+      "id": "5",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg6_ldvqpv.jpg",
+      "title": "Spice Route Diaries: Discovering the Hidden Stories Behind Every Dish",
+      "author": "Padma Lakshmi",
+      "published": ""
+    },
+    {
+      "id": "6",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154627/foodimg3_tuzhxo.jpg",
+      "title": "Forks and Fables: The Cultural Narratives That Shape What We Eat",
+      "author": "Anthony Bourdain",
+      "published": ""
+    },
+    {
+      "id": "7",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+      "title": "The Flavor Alchemist: Unlocking the Secrets of Molecular Gastronomy",
+      "author": "Heston Blumenthal",
+      "published": ""
+    },
+    {
+      "id": "8",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729878914/Frame_10124_cgpsxw.png",
+      "title": "Edible Adventures: Culinary Journeys Through Uncharted Territories",
+      "author": "Nigella Lawson",
+      "published": ""
+    }
+  ],
+  "fruit": [
+    {
+      "id": "1",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154661/fruitimg12_votfhw.jpg",
+      "title": "The Orchard Diaries: A Journey Through Nature’s Sweetest Bounty",
+      "author": "Clementine Harper",
+      "published": ""
+    },
+    {
+      "id": "2",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg6_o5q8pd.jpg",
+      "title": "Fruitful Tales: Legends and Recipes from the World’s Vibrant Groves",
+      "author": "Berry Thompson",
+      "published": ""
+    },
+    {
+      "id": "3",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg10_tcws66.jpg",
+      "title": "Citrus Symphony: Exploring the Zest and Zeal of Sun-Kissed Fruits",
+      "author": "Valencia Ray",
+      "published": ""
+    },
+    {
+      "id": "4",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg7_bkywcr.jpg",
+      "title": "Banana Republic: Cultural Stories and Culinary Wonders of the Tropics",
+      "author": "Mango Wells",
+      "published": ""
+    },
+    {
+      "id": "5",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Pomegranate Dreams: Mythology and Medicine from Seed to Skin",
+      "author": "Ruby Granate",
+      "published": ""
+    },
+    {
+      "id": "6",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg9_sy5jtx.jpg",
+      "title": "Melon Muse: Sweet Slices of Summer and the Art of Refreshment",
+      "author": "Honey D. Loup",
+      "published": ""
+    },
+    {
+      "id": "7",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg5_hsivjl.jpg",
+      "title": "Berry Bliss: From Forest Floors to Fine Dining Tables",
+      "author": "Straw Belle",
+      "published": ""
+    },
+    {
+      "id": "8",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Fruitopia: A Global Expedition into the World’s Juiciest Discoveries",
+      "author": "Jackie Fruitson",
+      "published": ""
+    }
+  ],
+  "news": [
+    {
+      "id": "1",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154679/newsimg1_nhsgsn.jpg",
+      "title": "The Mental Health Surge: Understanding the Global Rise in Anxiety and Depression",
+      "author": "Elena Michaels",
+      "published": ""
+    },
+    {
+      "id": "2",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg2_glqsd4.jpg",
+      "title": "Vaccines and Variants: How Scientists Are Staying Ahead of Emerging Viruses",
+      "author": "Marcus Lee",
+      "published": ""
+    },
+    {
+      "id": "3",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg3_wwojd8.png",
+      "title": "Nutrition Nation: The Impact of Diet Trends on Public Health Outcomes",
+      "author": "Tariq Johnson",
+      "published": ""
+    },
+    {
+      "id": "4",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg4_tr7bm8.jpg",
+      "title": "Heart Health Matters: New Guidelines Aim to Combat Rising Cardiovascular Risks",
+      "author": "Sophie Chen",
+      "published": ""
+    },
+    {
+      "id": "5",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg5_jgsnz4.jpg",
+      "title": "Climate and Health: How a Warming Planet is Influencing Disease Patterns",
+      "author": "David Nkrumah",
+      "published": ""
+    },
+    {
+      "id": "6",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg11_w9pwe2.jpg",
+      "title": "AI in Healthcare: Revolutionizing Diagnostics and Patient Care Delivery",
+      "author": "Priya Desai",
+      "published": ""
+    },
+    {
+      "id": "7",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg12_pzzznz.jpg",
+      "title": "Mental Wellness in the Workplace: Companies Investing in Employee Health",
+      "author": "Carlos Mendoza",
+      "published": ""
+    },
+    {
+      "id": "8",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg13_n4inhu.jpg",
+      "title": "Global Health Innovations: Medical Breakthroughs Transforming Lives in 2025",
+      "author": "Lina Petrova",
+      "published": ""
+    }
+  ],
+  "foodDetail": [
+    {
+      "id": "1",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg2_ibaac1.webp",
+      "title": "The Bread and Butter Chronicles: A Journey Through Everyday Culinary Magic",
+      "titleDescription": "Explore the simple yet profound impact of everyday meals through the eyes of passionate chefs and home cooks alike. From warm loaves of bread to perfectly buttered toast, this story reveals how comfort food connects cultures, memories, and generations.",
+      "subTitle": "Rediscovering Simplicity in the Kitchen",
+      "subTileDescription": "Join us on a heartfelt journey celebrating the unsung heroes of our kitchens — bread and butter — and the remarkable stories they tell.",
+      "author": "Alice Waters",
+      "published": "2025-03-15"
+    },
+    {
+      "id": "2",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg4_kwm0e2.jpg",
+      "title": "Culinary Canvas: Exploring Artistry in Modern Cuisine Around the World",
+      "titleDescription": "Dive into the intersection of food and art as chefs turn plates into masterpieces using bold flavors, colors, and textures from diverse cultures.",
+      "subTitle": "When Cooking Becomes an Art Form",
+      "subTileDescription": "Discover how culinary artists from around the globe redefine creativity in the kitchen through innovation and tradition.",
+      "author": "Gordon Ramsay",
+      "published": "2025-03-14"
+    },
+    {
+      "id": "3",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg1_jj9h2t.jpg",
+      "title": "Savor the Flavor: A Celebration of Global Dishes and Timeless Recipes",
+      "titleDescription": "A delicious journey through iconic recipes and the cultures that shaped them, highlighting timeless flavors loved across generations.",
+      "subTitle": "Tastes That Transcend Borders",
+      "subTileDescription": "Uncover the stories and secrets behind dishes that have become beloved staples worldwide.",
+      "author": "Julia Child",
+      "published": "2025-03-13"
+    },
+    {
+      "id": "4",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg5_f5ivbz.jpg",
+      "title": "Gastronomy Tales: Inside the Kitchens of the World's Greatest Chefs",
+      "titleDescription": "Go behind the scenes in the kitchens of culinary legends as they craft dishes with passion, precision, and a dash of storytelling.",
+      "subTitle": "A Look at Legends at Work",
+      "subTileDescription": "Step into the lives of chefs who shape the culinary world, one plate at a time.",
+      "author": "Massimo Bottura",
+      "published": "2025-03-12"
+    },
+    {
+      "id": "5",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg6_ldvqpv.jpg",
+      "title": "Spice Route Diaries: Discovering the Hidden Stories Behind Every Dish",
+      "titleDescription": "Trace the origins and significance of spices that revolutionized cuisines, economies, and cultures across continents.",
+      "subTitle": "Flavors with a Story",
+      "subTileDescription": "Experience the rich history of spice trade and its influence on modern cooking.",
+      "author": "Padma Lakshmi",
+      "published": "2025-03-11"
+    },
+    {
+      "id": "6",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154627/foodimg3_tuzhxo.jpg",
+      "title": "Forks and Fables: The Cultural Narratives That Shape What We Eat",
+      "titleDescription": "Uncover how folklore, history, and storytelling are deeply embedded in the dishes we love, forming a tapestry of taste and tradition.",
+      "subTitle": "Food as a Cultural Narrative",
+      "subTileDescription": "Dive into the myths and meanings behind the meals on our tables.",
+      "author": "Anthony Bourdain",
+      "published": "2025-03-10"
+    },
+    {
+      "id": "7",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+      "title": "The Flavor Alchemist: Unlocking the Secrets of Molecular Gastronomy",
+      "titleDescription": "Explore the scientific revolution in cuisine where flavor, chemistry, and imagination collide to create futuristic dishes.",
+      "subTitle": "Where Science Meets Flavor",
+      "subTileDescription": "Join the pioneers of molecular gastronomy as they transform dining into a sensory experiment.",
+      "author": "Heston Blumenthal",
+      "published": "2025-03-09"
+    },
+    {
+      "id": "8",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729878914/Frame_10124_cgpsxw.png",
+      "title": "Edible Adventures: Culinary Journeys Through Uncharted Territories",
+      "titleDescription": "Embark on wild food expeditions to discover rare ingredients, unique dishes, and the stories of people who dare to eat differently.",
+      "subTitle": "Pushing Boundaries with Every Bite",
+      "subTileDescription": "Travel to the edges of culinary innovation with those who find flavor where others don’t dare look.",
+      "author": "Nigella Lawson",
+      "published": "2025-03-08"
+    }
+  ],
+  "allDetail": [
+    {
+      "id": "1",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg2_ibaac1.webp",
+      "title": "The Bread and Butter Chronicles: A Journey Through Everyday Culinary Magic",
+      "author": "Alice Waters",
+      "published": "",
+      "titleDescription": "Step into a world where simple ingredients create extraordinary stories. Explore how daily culinary routines weave rich narratives of comfort, culture, and creativity.",
+      "subTitle": "Simplicity in Every Slice",
+      "subTitleDescription": "Discover how humble bread and butter become the foundation for culinary traditions that bring families and communities together."
+    },
+    {
+      "id": "2",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg4_kwm0e2.jpg",
+      "title": "Culinary Canvas: Exploring Artistry in Modern Cuisine Around the World",
+      "author": "Gordon Ramsay",
+      "published": "",
+      "titleDescription": "Embark on a journey through the vibrant world of contemporary cuisine, where chefs blend innovation and tradition to create edible masterpieces.",
+      "subTitle": "Plates as Paintings",
+      "subTitleDescription": "Witness how modern gastronomy transforms meals into art, with every dish a bold statement of culture, creativity, and craftsmanship."
+    },
+    {
+      "id": "3",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg1_jj9h2t.jpg",
+      "title": "Savor the Flavor: A Celebration of Global Dishes and Timeless Recipes",
+      "author": "Julia Child",
+      "published": "",
+      "titleDescription": "Taste the history and heart behind dishes passed down through generations. Each recipe tells a story of heritage, memory, and culinary passion.",
+      "subTitle": "Flavors That Unite",
+      "subTitleDescription": "Explore how diverse cuisines connect cultures, bringing people together over shared meals and cherished flavors."
+    },
+    {
+      "id": "4",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg5_f5ivbz.jpg",
+      "title": "Gastronomy Tales: Inside the Kitchens of the World's Greatest Chefs",
+      "author": "Massimo Bottura",
+      "published": "",
+      "titleDescription": "Peek behind the scenes into the lives and kitchens of culinary legends. Learn how passion, discipline, and creativity converge in the world’s top restaurants.",
+      "subTitle": "Masters of the Meal",
+      "subTitleDescription": "Discover the journeys, philosophies, and innovations that have shaped the world’s most celebrated culinary minds."
+    },
+    {
+      "id": "5",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154628/foodimg6_ldvqpv.jpg",
+      "title": "Spice Route Diaries: Discovering the Hidden Stories Behind Every Dish",
+      "author": "Padma Lakshmi",
+      "published": "",
+      "titleDescription": "Travel along the ancient spice routes and uncover the rich histories that spices bring to global cuisines. Every spice tells a tale of trade, tradition, and transformation.",
+      "subTitle": "Flavors of the Past",
+      "subTitleDescription": "Explore how spices shaped civilizations and continue to add depth, warmth, and identity to modern dishes."
+    },
+    {
+      "id": "6",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154627/foodimg3_tuzhxo.jpg",
+      "title": "Forks and Fables: The Cultural Narratives That Shape What We Eat",
+      "author": "Anthony Bourdain",
+      "published": "",
+      "titleDescription": "Delve into the myths, traditions, and social customs behind the foods we enjoy. See how every dish is steeped in cultural significance and personal stories.",
+      "subTitle": "Edible Narratives",
+      "subTitleDescription": "From ancient feasts to modern dining, learn how food reflects identity, values, and the human experience."
+    },
+    {
+      "id": "7",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729568495/Frame_10120_yvsg7d.png",
+      "title": "The Flavor Alchemist: Unlocking the Secrets of Molecular Gastronomy",
+      "author": "Heston Blumenthal",
+      "published": "",
+      "titleDescription": "Enter the cutting-edge world of molecular gastronomy where science meets flavor. Explore how chefs manipulate textures, temperatures, and tastes to create culinary wonders.",
+      "subTitle": "Science on the Plate",
+      "subTitleDescription": "Uncover the innovations behind foam, gel, and spherification that are revolutionizing modern cuisine."
+    },
+    {
+      "id": "8",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1729878914/Frame_10124_cgpsxw.png",
+      "title": "Edible Adventures: Culinary Journeys Through Uncharted Territories",
+      "author": "Nigella Lawson",
+      "published": "",
+      "titleDescription": "Embark on gastronomic adventures through remote and exotic regions, discovering unique ingredients and cooking techniques.",
+      "subTitle": "Flavors Off the Beaten Path",
+      "subTitleDescription": "From mountain villages to coastal markets, experience the tastes and stories that few have encountered."
+    },
+    {
+      "id": "9",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154661/fruitimg12_votfhw.jpg",
+      "title": "The Orchard Diaries: A Journey Through Nature’s Sweetest Bounty",
+      "author": "Clementine Harper",
+      "published": "",
+      "titleDescription": "Follow the seasons through the eyes of an orchardist, celebrating the cycles of growth, harvest, and the joys of fruit farming.",
+      "subTitle": "From Blossom to Basket",
+      "subTitleDescription": "Delight in the care, patience, and natural beauty that bring fresh fruits to our tables."
+    },
+    {
+      "id": "10",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg6_o5q8pd.jpg",
+      "title": "Fruitful Tales: Legends and Recipes from the World’s Vibrant Groves",
+      "author": "Berry Thompson",
+      "published": "",
+      "titleDescription": "Explore the lore, legends, and culinary uses of fruits across cultures, revealing how they’ve inspired everything from myths to medicines.",
+      "subTitle": "Fruit in Folklore",
+      "subTitleDescription": "Unearth stories and dishes that highlight the symbolic and nourishing power of fruits through time."
+    },
+    {
+      "id": "11",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg10_tcws66.jpg",
+      "title": "Citrus Symphony: Exploring the Zest and Zeal of Sun-Kissed Fruits",
+      "author": "Valencia Ray",
+      "published": "",
+      "titleDescription": "Celebrate the bright, tangy flavors of citrus fruits and their roles in refreshing drinks, vibrant dishes, and health remedies.",
+      "subTitle": "Zest for Life",
+      "subTitleDescription": "Experience the sensory joy of citrus—from the orchard to the kitchen—and its ability to uplift any dish."
+    },
+    {
+      "id": "12",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg7_bkywcr.jpg",
+      "title": "Banana Republic: Cultural Stories and Culinary Wonders of the Tropics",
+      "author": "Mango Wells",
+      "published": "",
+      "titleDescription": "Uncover the tropical treasures of bananas, plantains, and other exotic fruits that shape island and equatorial cuisines.",
+      "subTitle": "Tropical Treats",
+      "subTitleDescription": "Journey to warm climates where fruit is more than food—it’s culture, economy, and tradition."
+    },
+    {
+      "id": "13",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Pomegranate Dreams: Mythology and Medicine from Seed to Skin",
+      "author": "Ruby Granate",
+      "published": "",
+      "titleDescription": "Dive into the ancient and modern significance of pomegranates in healing, beauty, and spiritual rituals.",
+      "subTitle": "Seeds of Symbolism",
+      "subTitleDescription": "Learn how this jewel-like fruit embodies fertility, health, and wisdom in various cultures."
+    },
+    {
+      "id": "14",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg9_sy5jtx.jpg",
+      "title": "Melon Muse: Sweet Slices of Summer and the Art of Refreshment",
+      "author": "Honey D. Loup",
+      "published": "",
+      "titleDescription": "Enjoy the juicy delights of melons and their role in summer feasts, hydration, and culinary creativity.",
+      "subTitle": "Chill and Slice",
+      "subTitleDescription": "Discover the refreshing versatility of melons in dishes, desserts, and drinks around the world."
+    },
+    {
+      "id": "15",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg5_hsivjl.jpg",
+      "title": "Berry Bliss: From Forest Floors to Fine Dining Tables",
+      "author": "Straw Belle",
+      "published": "",
+      "titleDescription": "Trace the journey of berries from wild foraging to gourmet cuisine, exploring their health benefits and culinary versatility.",
+      "subTitle": "Little Fruits, Big Flavors",
+      "subTitleDescription": "See how berries bring bursts of flavor, color, and nutrition to dishes both simple and sophisticated."
+    },
+    {
+      "id": "16",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Fruitopia: A Global Expedition into the World’s Juiciest Discoveries",
+      "author": "Jackie Fruitson",
+      "published": "",
+      "titleDescription": "Embark on a global expedition to discover rare and celebrated fruits, their origins, and their place in cultural traditions.",
+      "subTitle": "The World in a Fruit Bowl",
+      "subTitleDescription": "Taste the globe through exotic fruits and the stories of those who grow, harvest, and cherish them."
+    },
+    {
+      "id": "17",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154679/newsimg1_nhsgsn.jpg",
+      "title": "The Mental Health Surge: Understanding the Global Rise in Anxiety and Depression",
+      "author": "Elena Michaels",
+      "published": "",
+      "titleDescription": "Delve into the complex causes and far-reaching impact of rising mental health issues across societies and age groups.",
+      "subTitle": "Healing Minds, Changing Lives",
+      "subTitleDescription": "Explore interventions, therapies, and community efforts working to support mental well-being worldwide."
+    },
+    {
+      "id": "18",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg2_glqsd4.jpg",
+      "title": "Vaccines and Variants: How Scientists Are Staying Ahead of Emerging Viruses",
+      "author": "Marcus Lee",
+      "published": "",
+      "titleDescription": "Follow the race between evolving viruses and cutting-edge vaccine research aiming to protect global health.",
+      "subTitle": "Science vs. Outbreaks",
+      "subTitleDescription": "Learn how global collaboration and scientific innovation are essential in combating health crises."
+    },
+    {
+      "id": "19",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg3_wwojd8.png",
+      "title": "Nutrition Nation: The Impact of Diet Trends on Public Health Outcomes",
+      "author": "Tariq Johnson",
+      "published": "",
+      "titleDescription": "Examine how evolving diets affect public health, from veganism to keto, and their impact on wellbeing and policy.",
+      "subTitle": "What’s on the Plate Matters",
+      "subTitleDescription": "Discover how food trends influence disease prevention, weight management, and lifestyle choices."
+    },
+    {
+      "id": "20",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg4_tr7bm8.jpg",
+      "title": "Heart Health Matters: New Guidelines Aim to Combat Rising Cardiovascular Risks",
+      "author": "Sophie Chen",
+      "published": "",
+      "titleDescription": "Understand the new medical recommendations for heart health and the lifestyle changes they promote.",
+      "subTitle": "Healthy Heart, Healthy Life",
+      "subTitleDescription": "Explore strategies, diets, and innovations helping people reduce cardiovascular risk and live longer."
+    },
+    {
+      "id": "21",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg5_jgsnz4.jpg",
+      "title": "Climate and Health: The Overlooked Link in Global Warming Discourse",
+      "author": "Dr. Maria Stein",
+      "published": "",
+      "titleDescription": "Explore the often-neglected relationship between climate change and public health, from rising respiratory issues to disease migration.",
+      "subTitle": "A Planet in Peril, People at Risk",
+      "subTitleDescription": "Understand how environmental changes are creating new health challenges and what can be done to mitigate them."
+    },
+    {
+      "id": "22",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg6_qz7lvs.jpg",
+      "title": "Digital Detox: The Growing Movement for Screen-Free Wellness",
+      "author": "Liam Foster",
+      "published": "",
+      "titleDescription": "Dive into the rising awareness of digital well-being and how people are reclaiming time, focus, and health by reducing screen time.",
+      "subTitle": "Unplug to Reconnect",
+      "subTitleDescription": "Discover practical tips and inspiring stories of those embracing a more mindful, less tech-saturated lifestyle."
+    },
+    {
+      "id": "23",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg7_shg7hc.jpg",
+      "title": "AI in Healthcare: Revolutionizing Diagnosis, Treatment, and Patient Care",
+      "author": "Neha Patel",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges of integrating AI into everyday medical practices."
+    },
+    {
+      "id": "24",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg8_ahf64k.jpg",
+      "title": "Mindful Eating: Transforming Your Relationship with Food for Better Health",
+      "author": "Sophia Greene",
+      "published": "",
+      "titleDescription": "Understand how mindfulness practices at mealtimes can improve digestion, mental health, and overall wellness.",
+      "subTitle": "Savor Each Bite",
+      "subTitleDescription": "Discover techniques and benefits of mindful eating, supported by science and personal stories."
+    }
+  ],
+  "fruitDetail": [
+    {
+      "id": "1",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154661/fruitimg12_votfhw.jpg",
+      "title": "The Orchard Diaries: A Journey Through Nature’s Sweetest Bounty",
+      "author": "Clementine Harper",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "2",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg6_o5q8pd.jpg",
+      "title": "Fruitful Tales: Legends and Recipes from the World’s Vibrant Groves",
+      "author": "Berry Thompson",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "3",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg10_tcws66.jpg",
+      "title": "Citrus Symphony: Exploring the Zest and Zeal of Sun-Kissed Fruits",
+      "author": "Valencia Ray",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "4",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg7_bkywcr.jpg",
+      "title": "Banana Republic: Cultural Stories and Culinary Wonders of the Tropics",
+      "author": "Mango Wells",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "5",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Pomegranate Dreams: Mythology and Medicine from Seed to Skin",
+      "author": "Ruby Granate",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "6",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg9_sy5jtx.jpg",
+      "title": "Melon Muse: Sweet Slices of Summer and the Art of Refreshment",
+      "author": "Honey D. Loup",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "7",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154659/fruitimg5_hsivjl.jpg",
+      "title": "Berry Bliss: From Forest Floors to Fine Dining Tables",
+      "author": "Straw Belle",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "8",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154660/fruitimg8_thbzhx.jpg",
+      "title": "Fruitopia: A Global Expedition into the World’s Juiciest Discoveries",
+      "author": "Jackie Fruitson",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    }
+  ],
+  "newsDetail": [
+    {
+      "id": "1",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742154679/newsimg1_nhsgsn.jpg",
+      "title": "The Mental Health Surge: Understanding the Global Rise in Anxiety and Depression",
+      "author": "Elena Michaels",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "2",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg2_glqsd4.jpg",
+      "title": "Vaccines and Variants: How Scientists Are Staying Ahead of Emerging Viruses",
+      "author": "Marcus Lee",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "3",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg3_wwojd8.png",
+      "title": "Nutrition Nation: The Impact of Diet Trends on Public Health Outcomes",
+      "author": "Tariq Johnson",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "4",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg4_tr7bm8.jpg",
+      "title": "Heart Health Matters: New Guidelines Aim to Combat Rising Cardiovascular Risks",
+      "author": "Sophie Chen",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "5",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156241/newsimg5_jgsnz4.jpg",
+      "title": "Climate and Health: How a Warming Planet is Influencing Disease Patterns",
+      "author": "David Nkrumah",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "6",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg11_w9pwe2.jpg",
+      "title": "AI in Healthcare: Revolutionizing Diagnostics and Patient Care Delivery",
+      "author": "Priya Desai",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "7",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg12_pzzznz.jpg",
+      "title": "Mental Wellness in the Workplace: Companies Investing in Employee Health",
+      "author": "Carlos Mendoza",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    },
+    {
+      "id": "8",
+      "picture": "https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742156242/newsimg13_n4inhu.jpg",
+      "title": "Global Health Innovations: Medical Breakthroughs Transforming Lives in 2025",
+      "author": "Lina Petrova",
+      "published": "",
+      "titleDescription": "Learn how artificial intelligence is transforming the healthcare industry, from faster diagnoses to personalized treatments.",
+      "subTitle": "The Future of Medicine",
+      "subTitleDescription": "Explore ethical considerations, successes, and challenges faced in implementing AI-driven solutions in patient care and research."
+    }
+  ],
