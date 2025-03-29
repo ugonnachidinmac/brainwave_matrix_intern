@@ -41,6 +41,7 @@ const AllBlogs = () => {
                 src={blog.picture}
                 alt={blog.title}
                 className="rounded w-full h-[180px] sm:h-[160px] md:h-[150px] object-cover mb-2"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 hover:opacity-100 flex items-center justify-center transition-opacity duration-300 rounded">
                 <p className="text-white text-sm font-semibold text-center px-2">

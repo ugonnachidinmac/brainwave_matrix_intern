@@ -43,6 +43,7 @@ const NewsBlogs = () => {
                 src={blog.picture}
                 alt={blog.title}
                 className="rounded w-full h-full object-cover"
+                loading="lazy"
               />
               {/* Overlay */}
               <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 hover:opacity-100 flex items-center justify-center transition-opacity duration-300 rounded">

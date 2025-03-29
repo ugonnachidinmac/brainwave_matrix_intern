@@ -24,6 +24,7 @@ const Footer = () => {
               className="rounded w-10 h-10 object-cover flex-shrink-0"
               cloudName="dqtyrjpeh"
               publicId="https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742246583/healthlogo1_ishmfv.jpg"
+              loading="lazy"
             />
             <p className="text-base sm:text-lg lg:text-xl text-black font-bold font-georgia break-words">
               Health Tips Blog

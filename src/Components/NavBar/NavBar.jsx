@@ -3,6 +3,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { MdTipsAndUpdates } from "react-icons/md";
 import { IoIosMenu } from "react-icons/io";
 import { FaRegWindowClose } from "react-icons/fa";
+import { Image } from "cloudinary-react";
 
 function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,12 +12,14 @@ function NavBar() {
 
   return (
     <nav className="bg-white w-full h-[50px] flex items-center justify-between px-6 md:px-10 fixed top-0 left-0 z-50 shadow-md">
-      {/* Logo */}
+      {/* Logo with Lazy Loading */}
       <Link to="/">
-        <img
-          src="https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742246583/healthlogo1_ishmfv.jpg"
-          alt="WOFBI Logo"
+        <Image
+          cloudName="dqtyrjpeh"
+          publicId="https://res.cloudinary.com/dqtyrjpeh/image/upload/v1742246583/healthlogo1_ishmfv.jpg"
           className="rounded w-[50px]"
+          alt="WOFBI Logo"
+          loading="lazy"
         />
       </Link>
 
@@ -33,7 +36,7 @@ function NavBar() {
         {[
           { name: "Home", path: "/" },
           { name: "About Us", path: "/aboutUs" },
-          { name: "Terms and Conditions ", path: "/termsAndConditions" },
+          { name: "Terms and Conditions", path: "/termsAndConditions" },
         ].map((link) => (
           <li key={link.name}>
             <Link
@@ -57,8 +60,7 @@ function NavBar() {
         }}
       >
         <div className="flex items-center">
-        <MdTipsAndUpdates className="mr-2"/>
-          {/* <GrContact className="mr-2" /> */}
+          <MdTipsAndUpdates className="mr-2" />
           <p>Update Blog</p>
         </div>
       </button>
@@ -69,7 +71,7 @@ function NavBar() {
           {[
             { name: "Home", path: "/" },
             { name: "About Us", path: "/aboutUs" },
-            { name: "Terms and Conditions ", path: "/termsAndConditions" },
+            { name: "Terms and Conditions", path: "/termsAndConditions" },
           ].map((link) => (
             <Link
               key={link.name}
@@ -92,7 +94,7 @@ function NavBar() {
             }}
           >
             <div className="flex items-center">
-            <MdTipsAndUpdates className="mr-2"/>
+              <MdTipsAndUpdates className="mr-2" />
               <p>Update Blog</p>
             </div>
           </button>

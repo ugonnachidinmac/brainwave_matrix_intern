@@ -72,6 +72,7 @@ const AllDetail = () => {
             src={foodItem.picture}
             alt={foodItem.title}
             className="rounded w-full max-h-[400px] object-cover"
+            loading="lazy"
           />
         </div>
 

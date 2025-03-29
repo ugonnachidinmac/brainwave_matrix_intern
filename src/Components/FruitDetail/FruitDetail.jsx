@@ -71,6 +71,7 @@ const FruitDetail = () => {
           src={foodItem.picture}
           alt={foodItem.title}
           className="rounded w-full max-h-[400px] object-cover mb-4"
+          loading="lazy"
         />
         <h1 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 break-words">
           {foodItem.title}
